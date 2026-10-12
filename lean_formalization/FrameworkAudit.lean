@@ -1,0 +1,21 @@
+import PaperFramework
+
+#print axioms CriticalExtrapolation.Paper.huber_attainment
+#print axioms CriticalExtrapolation.Paper.huber_lower_bound
+#print axioms CriticalExtrapolation.Paper.worstGradient_scaling
+#print axioms CriticalExtrapolation.Paper.smooth_convex_interpolation_necessary
+#print axioms CriticalExtrapolation.Paper.near_one_validity
+#print axioms CriticalExtrapolation.Paper.large_coefficient_failure
+#print axioms CriticalExtrapolation.Paper.initial_endpoints_nonempty_bounded
+
+#print axioms CriticalExtrapolation.Paper.qp_sufficiency
+#print axioms CriticalExtrapolation.Paper.auxiliary_uniform_scaled_limit
+#print axioms CriticalExtrapolation.Paper.negative_direction_realization
+#print axioms CriticalExtrapolation.Paper.sufficiency_at_unit_step
+#print axioms CriticalExtrapolation.Paper.sharp_critical_scale
+#print axioms CriticalExtrapolation.Paper.main_theorem
+#print axioms CriticalExtrapolation.Paper.smooth_convex_interpolation_sufficient
+#print axioms CriticalExtrapolation.Paper.radius_equality_embedding
+#print axioms CriticalExtrapolation.Paper.forward_flow_identity
+#print axioms CriticalExtrapolation.Paper.trial_energy_uniform_limit
+#print axioms CriticalExtrapolation.Paper.trial_energy_uniform_perturbation

@@ -1,0 +1,523 @@
+{
+  "certificate_identity_cases": 45,
+  "flow_cases": [
+    {
+      "N": 4,
+      "h": "1/2",
+      "c": "1",
+      "phi_sign": 1,
+      "phi_approx": 0.35119047619047616,
+      "active_slopes": [],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "nonadjacent_edges": 0,
+      "minimum_p_approx": 1.0,
+      "minimum_beta_difference_approx": 0.05952380952380952,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 4,
+      "h": "1/2",
+      "c": "21/20",
+      "phi_sign": 1,
+      "phi_approx": 0.295070383052279,
+      "active_slopes": [],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "nonadjacent_edges": 0,
+      "minimum_p_approx": 1.0,
+      "minimum_beta_difference_approx": 0.07337435020531845,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 4,
+      "h": "1/2",
+      "c": "11/10",
+      "phi_sign": 1,
+      "phi_approx": 0.2416461684011353,
+      "active_slopes": [
+        2
+      ],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nonadjacent_edges": 1,
+      "minimum_p_approx": 0.9284862932061978,
+      "minimum_beta_difference_approx": 0.07740066225165564,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 5,
+      "h": "1/2",
+      "c": "21/20",
+      "phi_sign": 1,
+      "phi_approx": 0.22562921558947882,
+      "active_slopes": [],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "nonadjacent_edges": 0,
+      "minimum_p_approx": 1.0,
+      "minimum_beta_difference_approx": 0.05018742500318156,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 9,
+      "h": "1/3",
+      "c": "1",
+      "phi_sign": 1,
+      "phi_approx": 0.12645853802607718,
+      "active_slopes": [],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ]
+      ],
+      "nonadjacent_edges": 0,
+      "minimum_p_approx": 1.0,
+      "minimum_beta_difference_approx": 0.010549486726673768,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 9,
+      "h": "1/3",
+      "c": "101/100",
+      "phi_sign": 1,
+      "phi_approx": 0.11989796144226,
+      "active_slopes": [
+        7
+      ],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "nonadjacent_edges": 1,
+      "minimum_p_approx": 0.8958686367512244,
+      "minimum_beta_difference_approx": 0.013159500590220058,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 9,
+      "h": "1/3",
+      "c": "21/20",
+      "phi_sign": 1,
+      "phi_approx": 0.09503256268818575,
+      "active_slopes": [
+        6,
+        7
+      ],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "nonadjacent_edges": 3,
+      "minimum_p_approx": 0.5943556874768041,
+      "minimum_beta_difference_approx": 0.010735979932618664,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 16,
+      "h": "1/4",
+      "c": "101/100",
+      "phi_sign": 1,
+      "phi_approx": 0.05507883468916626,
+      "active_slopes": [
+        0,
+        13,
+        14
+      ],
+      "slope_blocks": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          15
+        ]
+      ],
+      "nonadjacent_edges": 4,
+      "minimum_p_approx": 0.6123613380272098,
+      "minimum_beta_difference_approx": 0.003619750605915695,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 3,
+      "h": "2/3",
+      "c": "21/20",
+      "phi_sign": 1,
+      "phi_approx": 0.41724892806856667,
+      "active_slopes": [],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "nonadjacent_edges": 0,
+      "minimum_p_approx": 1.0,
+      "minimum_beta_difference_approx": 0.1279243035117489,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 6,
+      "h": "3/4",
+      "c": "21/20",
+      "phi_sign": 1,
+      "phi_approx": 0.1833973784278067,
+      "active_slopes": [],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "nonadjacent_edges": 0,
+      "minimum_p_approx": 1.0,
+      "minimum_beta_difference_approx": 0.028132389945012225,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 10,
+      "h": "4/5",
+      "c": "51/50",
+      "phi_sign": 1,
+      "phi_approx": 0.1764432229392505,
+      "active_slopes": [],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "nonadjacent_edges": 0,
+      "minimum_p_approx": 1.0,
+      "minimum_beta_difference_approx": 0.00886068348030045,
+      "exact_psd_identity_vectors": 7
+    },
+    {
+      "N": 12,
+      "h": "4/5",
+      "c": "51/50",
+      "phi_sign": 1,
+      "phi_approx": 0.14833858766196487,
+      "active_slopes": [],
+      "slope_blocks": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ]
+      ],
+      "nonadjacent_edges": 0,
+      "minimum_p_approx": 1.0,
+      "minimum_beta_difference_approx": 0.005766145461446677,
+      "exact_psd_identity_vectors": 7
+    }
+  ],
+  "exact_psd_identity_total": 84,
+  "passed": true,
+  "method": "Pure Python standard library: explicit active-set candidates; exact Fraction KKT solve and all original signs rechecked."
+}

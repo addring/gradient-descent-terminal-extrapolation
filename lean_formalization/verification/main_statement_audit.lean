@@ -1,0 +1,15 @@
+import PaperFramework
+
+#print CriticalExtrapolation.Instance
+#print CriticalExtrapolation.iterate
+#print CriticalExtrapolation.output
+#print CriticalExtrapolation.worstGradient
+#print CriticalExtrapolation.initialValidityEndpoints
+#print CriticalExtrapolation.criticalCoefficient
+#print CriticalExtrapolation.MainTheoremStatement
+#check CriticalExtrapolation.Paper.main_theorem
+#check CriticalExtrapolation.Paper.sharp_critical_scale
+#check CriticalExtrapolation.Paper.eventual_lower_interval_fixed_step
+#check CriticalExtrapolation.Paper.eventual_upper_failure_fixed_step
+#check CriticalExtrapolation.Paper.negative_direction_realization
+#print axioms CriticalExtrapolation.Paper.main_theorem

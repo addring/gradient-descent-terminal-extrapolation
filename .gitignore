@@ -1,0 +1,23 @@
+/archive/
+/build/
+/dist/
+/verification/results/
+.venv/
+__pycache__/
+*.py[cod]
+.lake/
+*.aux
+*.log
+*.out
+*.toc
+*.xdv
+*.synctex.gz
+.DS_Store
+Thumbs.db
+
+# Existing articles and course materials remain local
+/docs/
+/scripts/build_report.py
+/verification/exact/proof.md
+
+/article/

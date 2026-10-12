@@ -1,0 +1,65 @@
+warning: could not canonicalize path: 'D:\Homework\2026(3)-秋\人工智能中的优化方法-户将\期中项目\lean_formalization'
+warning: could not canonicalize path: 'D:\Homework\2026(3)-秋\人工智能中的优化方法-户将\期中项目\lean_formalization'
+structure CriticalExtrapolation.Instance (d : ℕ) (L D : ℝ) : Type
+number of parameters: 3
+fields:
+  CriticalExtrapolation.Instance.f : CriticalExtrapolation.Space d → ℝ
+  CriticalExtrapolation.Instance.convex : ConvexOn ℝ Set.univ self.f
+  CriticalExtrapolation.Instance.differentiable : Differentiable ℝ self.f
+  CriticalExtrapolation.Instance.gradient_lipschitz : ∀ (x z : CriticalExtrapolation.Space d),
+      ‖gradient self.f x - gradient self.f z‖ ≤ L * ‖x - z‖
+  CriticalExtrapolation.Instance.initial : CriticalExtrapolation.Space d
+  CriticalExtrapolation.Instance.minimizer : CriticalExtrapolation.Space d
+  CriticalExtrapolation.Instance.minimizes : ∀ (x : CriticalExtrapolation.Space d), self.f self.minimizer ≤ self.f x
+  CriticalExtrapolation.Instance.radius : ‖self.initial - self.minimizer‖ ≤ D
+constructor:
+  CriticalExtrapolation.Instance.mk {d : ℕ} {L D : ℝ} (f : CriticalExtrapolation.Space d → ℝ)
+    (convex : ConvexOn ℝ Set.univ f) (differentiable : Differentiable ℝ f)
+    (gradient_lipschitz : ∀ (x z : CriticalExtrapolation.Space d), ‖gradient f x - gradient f z‖ ≤ L * ‖x - z‖)
+    (initial minimizer : CriticalExtrapolation.Space d)
+    (minimizes : ∀ (x : CriticalExtrapolation.Space d), f minimizer ≤ f x) (radius : ‖initial - minimizer‖ ≤ D) :
+    CriticalExtrapolation.Instance d L D
+def CriticalExtrapolation.iterate : {d : ℕ} →
+  {L D : ℝ} → CriticalExtrapolation.Instance d L D → ℝ → ℕ → CriticalExtrapolation.Space d :=
+fun {d} {L D} I h x =>
+  Nat.brecOn x fun x f =>
+    (match (motive := (x : ℕ) → Nat.below x → CriticalExtrapolation.Space d) x with
+      | 0 => fun x => I.initial
+      | n.succ => fun x => x.1 - (h / L) • gradient I.f x.1)
+      f
+def CriticalExtrapolation.output : {d : ℕ} →
+  {L D : ℝ} → CriticalExtrapolation.Instance d L D → ℕ → ℝ → ℝ → CriticalExtrapolation.Space d :=
+fun {d} {L D} I N h c => I.initial + c • (CriticalExtrapolation.iterate I h N - I.initial)
+def CriticalExtrapolation.worstGradient : ℕ → ℝ → ℝ → ℝ → ℝ → ℝ :=
+fun N h c L D => sSup {r | ∃ d I, r = ‖gradient I.f (CriticalExtrapolation.output I N h c)‖}
+def CriticalExtrapolation.initialValidityEndpoints : ℕ → ℝ → ℝ → ℝ → Set ℝ :=
+fun N h L D => {C | 1 ≤ C ∧ ∀ c ∈ Set.Icc 1 C, CriticalExtrapolation.worstGradient N h c L D = L * D / (1 + ↑N * h * c)}
+def CriticalExtrapolation.criticalCoefficient : ℕ → ℝ → ℝ → ℝ → ℝ :=
+fun N h L D => sSup (CriticalExtrapolation.initialValidityEndpoints N h L D)
+def CriticalExtrapolation.MainTheoremStatement : Prop :=
+∀ (L D h : ℝ),
+  0 < L →
+    0 < D →
+      0 < h →
+        h ≤ 1 →
+          Filter.Tendsto (fun N => h * ↑N * √(Real.log ↑N) * (CriticalExtrapolation.criticalCoefficient N h L D - 1))
+            Filter.atTop (nhds 1)
+CriticalExtrapolation.Paper.main_theorem : CriticalExtrapolation.MainTheoremStatement
+CriticalExtrapolation.Paper.sharp_critical_scale (L D h : ℝ) (hL : 0 < L) (hD : 0 < D) (hh : 0 < h) (hh1 : h ≤ 1) :
+  Filter.Tendsto (fun N => h * ↑N * √(Real.log ↑N) * (CriticalExtrapolation.criticalCoefficient N h L D - 1))
+    Filter.atTop (nhds 1)
+CriticalExtrapolation.Paper.eventual_lower_interval_fixed_step (h L D ε : ℝ) (hh : 0 < h) (hh1 : h ≤ 1) (hL : 0 < L)
+  (hD : 0 < D) (hε : 0 < ε) (hε1 : ε < 1) :
+  ∀ᶠ (N : ℕ) in Filter.atTop,
+    ∀ c ∈ Set.Icc 1 (CriticalExtrapolation.Paper.scaledC N h (1 - ε)),
+      CriticalExtrapolation.worstGradient N h c L D = L * D / CriticalExtrapolation.Paper.S N h c
+CriticalExtrapolation.Paper.eventual_upper_failure_fixed_step (h L D ε : ℝ) (hh : 0 < h) (hh1 : h ≤ 1) (hL : 0 < L)
+  (hD : 0 < D) (hε : 0 < ε) :
+  ∀ᶠ (N : ℕ) in Filter.atTop,
+    L * D / CriticalExtrapolation.Paper.S N h (CriticalExtrapolation.Paper.scaledC N h (1 + ε)) <
+      CriticalExtrapolation.worstGradient N h (CriticalExtrapolation.Paper.scaledC N h (1 + ε)) L D
+CriticalExtrapolation.Paper.negative_direction_realization (N : ℕ) (h c L D : ℝ)
+  (hp : CriticalExtrapolation.Paper.Parameters N h c) (hL : 0 < L) (hD : 0 < D) (β : CriticalExtrapolation.Paper.Vec N)
+  (hβ : CriticalExtrapolation.StrictlyFeasible h c β) (hQ : CriticalExtrapolation.chainObjective h c β < 0) :
+  ∃ I, L * D / CriticalExtrapolation.Paper.S N h c < ‖gradient I.f (CriticalExtrapolation.output I N h c)‖
+'CriticalExtrapolation.Paper.main_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]

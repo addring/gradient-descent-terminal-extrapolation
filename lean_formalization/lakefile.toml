@@ -1,0 +1,17 @@
+name = "critical_extrapolation"
+version = "0.1.0"
+defaultTargets = ["CriticalExtrapolation", "PaperFramework"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "2df2f0150c275ad53cb3c90f7c98ec15a56a1a67"
+
+[[lean_lib]]
+name = "CriticalExtrapolation"
+
+[[lean_lib]]
+name = "PaperFramework"

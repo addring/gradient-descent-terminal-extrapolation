@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-12",
+  "paper_path": "../文档/gradient_extrapolation_paper/main.tex",
+  "paper_sha256": "b4a8ed6c455bc26d202a1d6595b129c637b5f4a8706b6cf26431f6ed1b272b46",
+  "matched_labels": [
+    "eq:method",
+    "eq:performance",
+    "eq:critical",
+    "thm:main",
+    "eq:main",
+    "eq:twosides",
+    "rem:scope"
+  ],
+  "actual_main_type": "CriticalExtrapolation.MainTheoremStatement",
+  "fixed_step_scope": "L > 0, D > 0, 0 < h <= 1; h fixed as N tends to infinity",
+  "actual_finite_dimensional_function_class": true,
+  "actual_output_gradient": true,
+  "whole_initial_validity_interval": true,
+  "actual_two_dimensional_strict_counterexample": true,
+  "no_extra_qp_assumption": true,
+  "legal_scope_paper_error_found": false,
+  "method_differences_documented_in": "FORMALIZATION_NOTES.md",
+  "evidence": [
+    {
+      "path": "verification/main_statement_audit.txt",
+      "sha256": "33391e92d12aa82bbbd15e51055ef988b9518120171a58395f1029c3f36b9c66"
+    },
+    {
+      "path": "verification/complete_axioms.txt",
+      "sha256": "6beec982663336e6be72f827d3f0ebed37350b7ec9c32620a8aa8b533833e70a"
+    },
+    {
+      "path": "verification/complete_summary.json",
+      "sha256": "4dcdee3a3a510f237a59a2f6d2c4ad4c95506aa20adabe80d3f8e0a920ca2f0b"
+    },
+    {
+      "path": "verification/complete_source_manifest.json",
+      "sha256": "1f851031095b6342ac87a958574b61ce4859382bb0ad9f4aed38e0cf8e54eb51"
+    },
+    {
+      "path": "verification/framework_summary.json",
+      "sha256": "d491500567d54a5d50119f2cc16ff8f1c874fd9444d2b2699d8c52219eedb876"
+    },
+    {
+      "path": "verification/analytic_summary.json",
+      "sha256": "c7b3819939ae41edeb127d75d6c1d9724729cb719a1d1ced8e5dc528f1a21ccf"
+    }
+  ]
+}

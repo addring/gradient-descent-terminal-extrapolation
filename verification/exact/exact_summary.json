@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "scope": "Finite exact checks; general statements are proved in proof.md.",
+  "old_formula_failure_regressions": 2,
+  "energy_exact_counts": {
+    "energy_identity": 600,
+    "matrix_decomposition": 1100,
+    "shifted_objective": 200,
+    "slater_direction": 150,
+    "u_formula": 275,
+    "resolvent_absolute_bound": 5049,
+    "corrected_energy_weight_bound": 275,
+    "perturbation_bound": 150
+  },
+  "certificate_identity_cases": 45,
+  "complete_kkt_and_flow_cases": 12,
+  "psd_identity_vectors": 84,
+  "counterexample_cases": 7,
+  "counterexample_ordered_constraints": 1256,
+  "counterexample_strict_constraints": 1112,
+  "counterexample_zero_constraints": 144,
+  "arithmetic": "fractions.Fraction, with no floating point tolerance for pass/fail"
+}

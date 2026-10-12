@@ -1,0 +1,44 @@
+import CriticalExtrapolation
+
+-- These commands inspect actual compiled theorem declarations.
+-- MainTheoremStatement is deliberately absent: it is a specification, not a theorem.
+#print axioms CriticalExtrapolation.referenceWeight_eq_comparison_add
+#print axioms CriticalExtrapolation.referenceWeight_eq_product
+#print axioms CriticalExtrapolation.weightRemainder_abs_le_one
+#print axioms CriticalExtrapolation.comparisonWeight_lower
+#print axioms CriticalExtrapolation.referenceWeight_quarter_comparison
+#print axioms CriticalExtrapolation.referenceWeight_pos
+#print axioms CriticalExtrapolation.referenceWeight_le_three
+#print axioms CriticalExtrapolation.reciprocal_stability
+#print axioms CriticalExtrapolation.inverse_comparisonWeight
+#print axioms CriticalExtrapolation.reciprocal_referenceWeight_error
+#print axioms CriticalExtrapolation.weighted_sos_identity
+#print axioms CriticalExtrapolation.weighted_sos_nonnegative
+#print axioms CriticalExtrapolation.weighted_sos_identity_quotients
+#print axioms CriticalExtrapolation.quadratic_form_nonnegative
+#print axioms CriticalExtrapolation.weighted_cauchy_schwarz
+#print axioms CriticalExtrapolation.normalized_energy_lower_bound
+#print axioms CriticalExtrapolation.sum_differences
+#print axioms CriticalExtrapolation.sum_weighted_differences
+#print axioms CriticalExtrapolation.sum_weighted_differences_zero_boundary
+#print axioms CriticalExtrapolation.sum_mul_tail
+#print axioms CriticalExtrapolation.tridiagonal_diagonal_split
+#print axioms CriticalExtrapolation.tridiagonal_neighbor_split
+#print axioms CriticalExtrapolation.tridiagonal_row_lower_pos
+#print axioms CriticalExtrapolation.sum_reverse_endpoint
+#print axioms CriticalExtrapolation.sum_inverse_comparisonWeight
+#print axioms CriticalExtrapolation.reciprocal_square_majorant
+#print axioms CriticalExtrapolation.sum_reciprocal_squares_lt_two
+#print axioms CriticalExtrapolation.referenceReciprocalSum_error
+#print axioms CriticalExtrapolation.harmonicSum_eq_harmonic
+#print axioms CriticalExtrapolation.harmonicSum_log_error
+#print axioms CriticalExtrapolation.referenceReciprocalSum_log_error
+#print axioms CriticalExtrapolation.referenceReciprocalSum_sub_log_isBigO
+#print axioms CriticalExtrapolation.positive_productFlow_adjacent_slopes
+#print axioms CriticalExtrapolation.positive_productFlow_support
+#print axioms CriticalExtrapolation.Instance.gradient_at_minimizer
+#print axioms CriticalExtrapolation.Instance.continuous_gradient
+#print axioms CriticalExtrapolation.continuous_iterate
+#print axioms CriticalExtrapolation.continuous_output
+#print axioms CriticalExtrapolation.continuous_output_gradient_norm
+#print axioms CriticalExtrapolation.output_gradient_bound_at_step_limit
