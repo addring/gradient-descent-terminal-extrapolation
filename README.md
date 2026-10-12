@@ -30,7 +30,12 @@ $$
 从 $c=1$ 起连续成立的参数区间。定义
 
 $$
-c_{\mathrm{crit}}(N,h)=\sup\left\{C\ge1:\ P_{N,h}(c;L,D)=\frac{LD}{1+Nhc}\ \text{对所有 }c\in[1,C]\right\}.
+c_{\mathrm{crit}}(N,h)
+=\sup\left\{
+C\ge 1:\ 
+P_{N,h}(c;L,D)=\frac{LD}{1+Nhc}
+\quad \text{对所有 }c\in[1,C]
+\right\}.
 $$
 
 由缩放可知，该临界参数与 $L,D$ 无关。
