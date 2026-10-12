@@ -31,11 +31,11 @@ $$
 
 $$
 c_{\mathrm{crit}}(N,h)
-=\sup\left\{
+=\sup\left\lbrace
 C\ge 1:\ 
 P_{N,h}(c;L,D)=\frac{LD}{1+Nhc}
 \quad \text{对所有 }c\in[1,C]
-\right\}.
+\right\rbrace.
 $$
 
 由缩放可知，该临界参数与 $L,D$ 无关。
