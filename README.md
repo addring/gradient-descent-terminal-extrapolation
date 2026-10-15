@@ -1,16 +1,15 @@
 # 梯度下降末端外推的临界尺度
 
 *A Sharp Asymptotic Threshold for Terminal Extrapolation of Gradient Descent*
+*Luner–Grimmer Conjecture 5.1 — Computational and Lean-Formalized Investigation*
 
 本项目为清华大学 2026 年秋季学期户将老师《人工智能中的优化方法》课程的期中项目。课程要求选取一个有公开出处且经核实尚未解决的问题，利用 AI 探索其证明、反例或求解算法，并对研究结果进行独立核验。
 
 我们选择研究 Luner 与 Grimmer 在 *On Averaging and Extrapolation for Gradient Descent*（[arXiv 第四版](https://arxiv.org/abs/2402.12493v4)，Conjecture 5.1）中提出的猜想：在光滑凸优化中，以末端外推点的最坏梯度范数为指标，固定步长梯度下降的临界外推参数增量是否为 $\Theta(N^{-1})$。仓库收录研究论文、Lean 形式化证明代码及 Python 精确检查程序。
 
-## Luner–Grimmer Conjecture 5.1 — Computational and Lean-Formalized Investigation
-
 This project investigates Conjecture 5.1 in *On Averaging and Extrapolation for Gradient Descent* by Alan Luner and Benjamin Grimmer (arXiv:2402.12493).
 
-The project claims to refute the conjectured Theta(1/N) critical scale and proposes the sharper asymptotic 1/(hN sqrt(log N)). It provides a mathematical write-up, Lean 4 formalization, and verification scripts.
+The project claims to refute the conjectured \(\Theta(1/N)\) critical scale and proposes the sharper asymptotic \(1/(hN\sqrt{\log N})\). It provides a mathematical write-up, Lean 4 formalization, and verification scripts.
 
 **Status:** Independent project; not peer-reviewed. Independent verification is welcome.
 
