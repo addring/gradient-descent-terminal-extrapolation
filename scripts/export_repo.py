@@ -9,7 +9,13 @@ ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = ['README.md', '.gitignore', 'main.pdf']
 DIRECTORIES = ['lean_formalization', 'verification', 'scripts']
 EXCLUDED = {'.lake', '__pycache__', 'results'}
-EXCLUDED_FILES = {'scripts/build_report.py', 'verification/exact/proof.md'}
+EXCLUDED_FILES = {'scripts/build_report.py', 'scripts/build_paper.py',
+                  'scripts/live_original_lean.py',
+                  'verification/exact/proof.md'}
+VERIFICATION_LOGS = {
+    'lean_formalization/verification/original_extension/framework_build.log',
+    'lean_formalization/verification/original_extension/full_lake_build.log',
+}
 SUFFIXES = {'.pyc', '.log', '.aux', '.out', '.toc', '.xdv', '.synctex.gz'}
 
 def source_files():
@@ -19,7 +25,10 @@ def source_files():
             subdirs[:] = sorted(name for name in subdirs if name not in EXCLUDED)
             for name in names:
                 path = Path(folder) / name
-                if path.relative_to(ROOT).as_posix() not in EXCLUDED_FILES and not any(name.endswith(suffix) for suffix in SUFFIXES):
+                relative = path.relative_to(ROOT).as_posix()
+                if (relative not in EXCLUDED_FILES and
+                        (relative in VERIFICATION_LOGS or
+                         not any(name.endswith(suffix) for suffix in SUFFIXES))):
                     files.append(path)
     return sorted(files)
 

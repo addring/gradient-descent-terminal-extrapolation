@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-14T19:38:05.6044582+08:00",
+  "build_status": "full_lake_build_status.json",
+  "build_log": "full_lake_build.log",
+  "jobs": 2866,
+  "default_targets": [
+    "CriticalExtrapolation",
+    "PaperFramework",
+    "OriginalExtension"
+  ],
+  "declarations_and_proof_bodies_match_combined_audit": true,
+  "change_since_combined_audit": "Added import PaperFramework.ProblemAndHuber in OriginalQuadratic.lean; proof bodies unchanged",
+  "files": [
+    {
+      "file": "PaperFramework/OriginalFeasibility.lean",
+      "sha256": "dee32cfece3dc99034375b5232832274191f5ba83d8f8e7e1d917196ac4ff7d8"
+    },
+    {
+      "file": "PaperFramework/OriginalEnergy.lean",
+      "sha256": "75ca549c7d1e68f7ee216cf0f1a2e58f206b36763400bf2ae04159a48fba23f4"
+    },
+    {
+      "file": "PaperFramework/OriginalQuadratic.lean",
+      "sha256": "3bacd0276afcbb2a6573eda89e55b2a898d48c9bfadd8a9a0a5b32d9aa9ae717"
+    },
+    {
+      "file": "PaperFramework/OriginalObjective.lean",
+      "sha256": "8d9f774f63219559cfab611b5d358ba8319ff02764a3814f5cc2e592f57e65f6"
+    },
+    {
+      "file": "PaperFramework/OriginalCritical.lean",
+      "sha256": "a2353a4c8c9461bffad986689cadd91a5e0d0be640c728a6127ad091e708726b"
+    },
+    {
+      "file": "OriginalExtension.lean",
+      "sha256": "1d7723190910274a865044b00d4a90fab37cd3b647e719ccc1e8ef56ca04fc2e"
+    },
+    {
+      "file": "OriginalAudit.lean",
+      "sha256": "699ae65d50c1141635d44f6a01825b857234dbe39fd5f99d35ebc568759352c1"
+    },
+    {
+      "file": "lakefile.toml",
+      "sha256": "c851d498dd8bac9e7126a27b4c06942b16707abb93f0995fa2ed933c4c35833c"
+    },
+    {
+      "file": "lake-manifest.json",
+      "sha256": "8405fc09993dbab2f536ed1ffd6e97a61b813d7c32e268cbb3a71692919b7377"
+    },
+    {
+      "file": "lean-toolchain",
+      "sha256": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8"
+    }
+  ]
+}

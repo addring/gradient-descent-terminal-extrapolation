@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-10-14",
+  "mode": "combined proof compilation and 18 theorem axiom audits, followed by full default lake build",
+  "lean_toolchain": "leanprover/lean4:v4.26.0",
+  "lean_executable_sha256": "a169c3d75e47b6095807c9ec959eacc0ff68559b43b73ac4d158e938c271cad4",
+  "lake_manifest_sha256": "8405fc09993dbab2f536ed1ffd6e97a61b813d7c32e268cbb3a71692919b7377",
+  "full_lake_build_this_turn": true,
+  "source_hashes_verified": true,
+  "combined_input_hash_verified": true,
+  "full_lake_build_completed_at": "2026-10-14T19:36:17.604114+08:00",
+  "current_source_manifest": "full_lake_build_source_manifest.json",
+  "change_since_combined_audit": "One import added in OriginalQuadratic.lean; declarations and proof bodies verified unchanged; original audit hashes preserved"
+}

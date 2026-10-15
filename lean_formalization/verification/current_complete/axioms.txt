@@ -1,0 +1,1037 @@
+'CriticalExtrapolation.weighted_cauchy_schwarz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.normalized_energy_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.sum_differences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.sum_weighted_differences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.sum_weighted_differences_zero_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.sum_mul_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.positive_productFlow_adjacent_slopes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.positive_productFlow_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.harmonicSum_eq_harmonic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.harmonicSum_log_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.referenceReciprocalSum_log_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.referenceReciprocalSum_sub_log_isBigO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.sum_reverse_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.sum_inverse_comparisonWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.reciprocal_square_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.sum_reciprocal_squares_lt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.referenceReciprocalSum_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.weighted_sos_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.weighted_sos_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.weighted_sos_identity_quotients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.quadratic_form_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Instance.gradient_at_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Instance.continuous_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.continuous_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.continuous_output' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.continuous_output_gradient_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.output_gradient_bound_at_step_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.tridiagonal_diagonal_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.tridiagonal_neighbor_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.tridiagonal_row_lower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.referenceWeight_eq_comparison_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.referenceWeight_eq_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.weightRemainder_abs_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.comparisonWeight_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.referenceWeight_quarter_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.referenceWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.referenceWeight_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.reciprocal_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.inverse_comparisonWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.reciprocal_referenceWeight_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.chainFlow_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.chain_quadratic_continuous_at_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.chain_positive_near_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.TEntry_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.DEntry_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticForm_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticForm_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticForm_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticForm_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticForm_rank_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.chain_flow_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.chain_basis_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.chain_matrix_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.chainObjective_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.conjugate_minimizer_recovered_value' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.recoveredFunction_nonnegative_of_zero_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_zero_conjugate_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.conjugatePotential_support_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.conjugate_minimizer_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.conjugate_minimizer_exists_unique_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.conjugate_minimizer_quadratic_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.conjugate_optimizer_firm_nonexpansive_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.conjugateAffineMaximum_eq_sup' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.conjugateAffineMaximum_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.conjugateAffineMaximum_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.conjugatePotential_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.conjugatePotential_strongConvex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energyZeta_ge_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.correctionRight_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.correctionLeft_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.correction_left_eq_previous_right' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.correction_matrix_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.correction_matrix_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.correction_matrix_off_nonpositive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.correction_matrix_row_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.correction_matrix_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energy_quadratic_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energy_matrix_domination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.near_one_validity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.large_coefficient_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.initial_endpoints_nonempty_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.eventual_lower_interval_open_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.sufficiency_at_unit_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.eventual_lower_interval_fixed_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.eventual_upper_failure_fixed_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.critical_interval_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.homogeneousEnergy_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.objective_positive_on_zero_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.chain_at_one_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energy_local_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tridiagonal_energy_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.qp_energy_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.finite_lower_bound_continuous_at_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.nonnegative_multiplier_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.feasible_gap_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_coordinate_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_shift_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.difference_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.antitone_of_differences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.prefix_sum_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.applyT_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.queryK_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasibilityGap_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasibilityGap_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.slope_gap_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_first_coordinate_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.feasibilityGap_first_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasibilityGap_propagates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_gap_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasibilityGap_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_terminal_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_coordinates_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.slope_strict_of_zero_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.fin_interval_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.fin_interval_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sum_fin_Icc_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sum_fin_Icc_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sum_fin_Icc_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.interval_queryK_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledA_unit_log_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.eventual_finite_lower_bound_at_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.finite_constraints_feasible_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.finite_qp_first_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.finite_qp_kkt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.affine_line_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.affine_line_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.convex_gradient_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flatEnvelope_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flatEnvelope_output' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flatEnvelope_attainment_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.envelope_attainment_by_flat_recovery' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.envelopeCoefficient_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flatEnvelope_all_slacks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flatEnvelope_global_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.optimizer_coordinates_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowEll_at_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_flowEll_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowProbability_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_flowProbability_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowProbability_one_of_strict_slope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.flow_survival_complementarity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_product_flow_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.productFlow_outflow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.productFlow_inflow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.natural_productFlow_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_product_flow_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowSurvival_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sum_incoming_before_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.inflow_source_selector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_flow_weighted_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_weighted_inflow_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.norm_three_term_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.forward_flow_identity_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.extendedBasis_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_basis_difference_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_matrix_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_matrix_action_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_row_weight_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_survival_ell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowEll_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_departure_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_product_flow_row_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowTransport_lower_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_flowTransport_lower_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_flow_matrix_off_diagonal_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.kkt_flow_matrix_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.slope_plateau_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.plateau_probabilityNumerator_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.kkt_probabilities_in_unit_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.probabilityNumerator_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.equal_slope_row_weight_recurrence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.plateau_increment_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.interval_nonnegative_of_no_local_minimum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.probabilityNumerator_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowProbability_nonnegative_of_numerator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.probabilityNumerator_no_local_minimum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.quadraticForm_finset_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scalar_flow_quadratic_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowAlpha_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowAlpha_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowHistory_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowHistory_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowAlpha_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowHistory_strict_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.translated_slack' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_vector_edge_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_lambda_queryK' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_edge_query_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_edge_output_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.weighted_slack_flow_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_basis_flux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.outflow_source_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.inflow_predecessor_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_flow_slope_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_flow_matrix_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sampled_ordinary_position' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sampled_ordinary_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sampled_output_position' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sampled_output_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sampled_star_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.space_prefix_sum_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sampled_iterate_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sampled_output_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowVectorExtend_ordinary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowVectorExtend_output' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowVectorT_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.fin_prefix_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sampled_initial_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sampled_ordinary_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_matrix_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.queryK_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.queryK_lt_S' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowRho_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowTransport_outgoing_incoming' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowTransport_upper_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.outputMultiplier_eq_rho' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.output_multipliers_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.space_finset_sum_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowVectorExtend_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowVectorT_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.space_norm_sq_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.vector_flow_quadratic_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.forward_flow_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.forward_certificate_per_instance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.forward_certificate_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.slack_potential_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_divergence_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.admissible_flow_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_pairing_with_sink' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.forward_potentials_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.S_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flow_lambda_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.forward_remainder_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.forward_gradient_bound_of_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.fullConjugatePotential_support_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_conjugate_minimizer_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.full_conjugate_minimizer_exists_unique_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_conjugate_minimizer_quadratic_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_conjugate_optimizer_firm_nonexpansive_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.fullConjugateAffineMaximum_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.fullConjugateAffineMaximum_convex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.fullConjugatePotential_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.fullConjugatePotential_strongConvex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_conjugate_minimizer_recovered_value' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_affine_sample_slack_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.fullConjugatePotential_at_sample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_sample_gradient_conjugate_minimizer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_recovered_function_interpolates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.smooth_convex_interpolation_sufficient_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_conjugate_recovered_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_conjugate_optimizer_nonexpansive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_recovered_linear_error_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.full_recovered_hasGradientAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.fullRecoveredFunction_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.full_recovered_function_global_smoothness_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.dilation_hasGradientAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.dilation_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.dilation_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.conjugate_minimizer_exists_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.conjugate_optimizer_firm_nonexpansive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.recovered_function_global_smoothness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.recovered_function_interpolates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_global_function' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.negative_direction_realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.negative_direction_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.initial_endpoints_of_interval_and_failure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.critical_lower_of_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.critical_upper_of_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledC_rescale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaled_limit_of_interval_sandwich' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.instance_gradient_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.instance_gradient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.instance_iterate_radius_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.instance_output_gradient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.constantInstance_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.actual_instance_values_nonempty_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.normalized_dilation_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.dilatedInstance_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.dilatedInstance_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.dilatedInstance_output' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.smooth_convex_interpolation_necessary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.smooth_convex_interpolation_sufficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.sampled_slacks_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.chain_matrix_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledNu_transpose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kktRowWeight_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_coordinate_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_adjacent_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.slope_multiplier_zero_of_equal_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.terminal_difference_multiplier_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.finite_discrete_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kktSlopeMoment_le_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_row_moments_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.row_moments_positive_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_multiplier_scale_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledMu_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_weights_at_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_flat_curvature_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.zero_of_strict_curvature_on_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.kkt_difference_multipliers_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_strict_differences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.optimizer_strict_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.difference_multipliers_vanish' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.large_coefficient_failure_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.sharp_critical_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.main_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticForm_row_sos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.positiveQuadratic_of_positive_row_sums' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.sum_fin_indicator_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.difference_tail_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.difference_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.backward_recursions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.special_value_slack_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_slack_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_pair_slack_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_all_directed_slacks_of_strict' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.negativeLeading_backward_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_all_directed_slacks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.negative_direction_finite_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.negative_direction_realization_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.strict_feasible_slopes_strictAnti' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.negativeLeading_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.negativeLeading_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.negativeLeading_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.negativeLeading_forward_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_distinguished_residual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_distinguished_slacks' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_adjacent_slack' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_adjacent_slack_strict_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.perturbationGradient_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_ordinary_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_ordinary_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_extended_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.ordinary_slack_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.ordinary_slack_parameter_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.backwardA_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbationInitial_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_radius_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_minimizer_slack_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_nonadjacent_slack_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_radius_strict_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.nonterminal_plateau_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.referenceReciprocalSum_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.full_space_energy_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.objective_energy_on_zero_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.objective_energy_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.original_eventual_upper_failure_fixed_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.original_critical_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.original_sharp_critical_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.original_critical_increment_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.original_no_positive_inverse_linear_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.original_conjecture_5_1_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.original_energy_perturbation_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.original_energy_eventual_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.original_reciprocal_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.original_trial_coefficient_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.original_trial_functional_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.original_trial_strict_feasibility' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.original_trial_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.original_terminal_log_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.original_negative_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.original_eventual_negative_trial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.original_quadratic_tail_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.original_quadratic_tail_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_global_function_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_prefix_sum_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_iterate_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.perturbation_output_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledMu_zero_of_strict_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.plateau_boundary_multipliers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_adjacent_reduced' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.equal_slope_row_weight_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.equal_slope_difference_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.plateau_difference_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.row_moments_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.plateau_row_moments_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.plateau_row_weight_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.nonterminal_plateau_difference_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.quadraticForm_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.positiveQuadratic_of_unit_sphere' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.positiveQuadratic_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.instance_values_nonempty_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.huber_attainment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.huber_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.worstGradient_scaling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radius_equality_embedding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kkt_flow_matrix_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowSurvival_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.flowSurvival_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.natural_interval_sum_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.productFlow_exit_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.productFlow_weighted_exit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.productFlow_arrival_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sum_outgoing_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sum_incoming_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.optimizer_exists_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.continuous_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.continuous_applyT' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.continuous_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.continuous_chainObjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.nonnegative_of_differences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_coordinate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_set_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_set_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.difference_mix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.slope_mix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_set_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.qpNormalization_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.REntry_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.AEntry_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.qpConstraint_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.qpConstraint_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.qp_feasible_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.qpConstraint_positive_of_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.continuous_uniformPerturbation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.uniformPerturbation_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.uniformPerturbation_differences_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.uniformPerturbation_slopes_eventually' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.strictly_feasible_direction_exists' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.strictlyFeasible_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_mix_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_negative_has_strict_negative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.negative_optimizer_has_strict_negative_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.queryK_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.uniform_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.uniform_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.uniform_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.uniform_slopes_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.uniform_difference_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.uniform_feasible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.descendingMass_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.descending_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.descending_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.auxiliaryValue_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.halfSquaredNorm_hasGradientAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.halfSquaredNorm_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.halfSquaredNorm_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticUnitInstance_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticUnitInstance_output' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.unitOne_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.complete_kkt_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.coordinateLinear_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.chain_matrix_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticGradient_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticGradient_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadratic_cross_symmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticForm_line_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusDrop_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusLift_castSucc_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusLift_last_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusDrop_radiusLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusLift_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusDrop_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusLift_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radius_extension_hasGradientAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radius_extension_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusAppend_castSucc_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusAppend_last_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusDrop_radiusAppend' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusAppend_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusAppend_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radius_append_equal_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusExtendedInstance_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusExtendedInstance_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radiusExtendedInstance_output' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.radius_equality_embedding_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.conjugatePotential_at_sample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sample_gradient_conjugate_minimizer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.recovered_function_interpolates_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.conjugate_recovered_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.conjugate_optimizer_nonexpansive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.recovered_linear_error_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.recovered_hasGradientAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.recoveredFunction_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.recovered_function_global_smoothness_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.referenceReciprocalSum_div_log_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.log_div_referenceReciprocalSum_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.log_div_nat_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.quadraticForm_mix_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.normalization_affine_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.relative_strict_convexity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.weighted_differences_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.previousMu_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.multiplier_differences_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.row_moments_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledC_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledC_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledA_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaled_interval_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sqrt_log_nat_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledA_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.eventual_step_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.eventual_scaled_parameter_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shifted_direction_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shifted_direction_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shifted_direction_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.affine_shift_energy_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.slope_second_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.slope_gap_increases_at_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kktSlopeMoment_at_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kktSlopeMoment_at_successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.kktSlopeMoment_drop_at_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.unit_smooth_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.smooth_convex_interpolation_necessary_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.vertical_scaling_hasGradientAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.vertical_scaling_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.unitSmoothInstance_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.unitSmoothInstance_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.unitSmoothInstance_output' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.qp_sufficiency_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.qp_sufficiency' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.zeroExtend_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tail_after_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tail_step_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sum_fin_natural_differences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tail_transform_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tail_transform_coordinate_extended' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.tail_transform_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tail_ratio_eq_transformed_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energy_factor_transformed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sum_mul_tail_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.weighted_difference_tail_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.sum_fin_suffix_eq_Ico' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tail_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tail_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tail_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energyZeta_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sum_tailU_from' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tail_transform_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tail_transform_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tailU_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.feasible_slopes_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.terminal_slope_plateau_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.queryK_ge_h' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.terminal_potential_coefficient_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.terminal_plateau_endpoint_of_kkt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.terminal_plateau_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.interval_sum_bound_of_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.terminal_weighted_differences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.terminal_weighted_differences_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.equal_slope_row_weight_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.plateau_row_sum_strict_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.previousCoordinate_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.DEntry_transpose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.adjacent_summation_by_parts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledMu_zeroExtend' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.previousMu_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.AEntry_transpose_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.TEntry_column_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.TEntry_transpose_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_reference_energy_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_energy_uniform_perturbation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_energy_uniform_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_baseline_tailU_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialLeft_tail_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialLeft_tail_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_baseline_tailU_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shiftedHarmonic_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shiftedHarmonic_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialVector_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_normalization_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.normalizedTrial_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialVector_adjacent_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.normalizedTrial_differences_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_strict_feasibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_finite_abel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialSlopeFunctional_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialSlopeFunctional_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialSlopeFunctional_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialSlopeFunctional_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shifted_slopes_strict_of_functional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_reciprocal_product_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shiftedHarmonic_weighted_telescope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.shiftedHarmonic_weighted_sum_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_reciprocal_square_sum_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialLeft_square_sum_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialVector_square_sum_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_baseline_endpoint_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_reference_remainder_majorant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.shifted_reciprocal_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shifted_reciprocal_log_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_normalization_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_normalization_log_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_normalization_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.homogeneousEnergy_eq_trialEnergyJ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialEnergyJ_parameter_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.homogeneousEnergy_parameter_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.shiftedHarmonic_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialVector_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_tail_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialVector_difference_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialVector_terminal_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_baseline_J_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_parameter_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_J_difference_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_normalization_square_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_reference_J_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_energy_uniform_perturbation_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialVector_profiles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialLeft_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialRight_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialLeft_functional_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialRight_functional_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialVector_functional_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energy_matrix_at_reference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_reference_energy_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_reference_profile_error_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_reference_energy_model_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.reference_model_prefactor_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_reference_pointwise_energy_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialLeft_tail_reference_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_baseline_reciprocal_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shiftedHarmonic_endpoint_weight_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialLeft_remainder_weighted_sum_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_reciprocal_model_positive_correction_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.scalar_reference_partial_fraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_baseline_reciprocal_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.reciprocalReferenceEnergy_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.reciprocalReferenceEnergy_div_log_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_reference_energy_limit_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.shifted_nat_reciprocal_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.shifted_nat_ratio_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.referencePoleA_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.referencePoleB_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.referencePoleD_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.bounded_div_log_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.log_quotient_tendsto_of_bounded_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialLeft_reciprocal_sum_div_log_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.harmonicSum_div_log_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialRight_reciprocal_square_sum_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialLeft_reciprocal_square_div_log_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialRight_reciprocal_square_div_log_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.reciprocal_weighted_tail_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.reciprocal_right_product_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.reciprocal_shifted_right_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialLeft_remainder_weighted_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.shiftedHarmonic_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shiftedHarmonic_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_right_slope_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_objective_scaled_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_energy_scaled_parameter_uniform_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialNormalization_eventually_ge_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_objective_uniform_scaled_limit_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.sum_real_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.reciprocal_defect_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.reciprocal_defect_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_left_remainder_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_left_slope_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.uniformOn_of_tendsto_error_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialNormalization_div_log_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.tail_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.difference_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.homogeneousEnergy_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.normalizedTrial_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_energy_uniform_limit_from_estimates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.zeroExtend_pointwise_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.weighted_square_differences_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.weighted_difference_product_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trialVector_differences_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.scalar_J_perturbation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_J_parameter_difference_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.trial_baseline_J_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_right_scalar_weight_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_weighted_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_reverse_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_reciprocal_right_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_endpoint_summand_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_weighted_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trialWeightConstant_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_weighted_sum_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sum_fin_value_selector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energy_matrix_entries_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.right_neighbor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energy_quadratic_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energyD_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energyF_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energyZeta_eq_D_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.energyF_eq_D_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.tridiagonal_diagonal_entry_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.tridiagonal_neighbor_entry_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.tridiagonal_matrix_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.referenceWeight_mono_parameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.uniformOn_of_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.auxiliaryValue_le_chainObjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.auxiliary_uniform_scaled_limit_proved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.uniformOn_of_uniform_error_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.uniformOn_of_error_plus_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.sqrt_log_div_nat_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.log_scaledA_div_nat_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.auxiliary_uniform_scaled_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_objective_uniform_scaled_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.eventual_positive_initial_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.eventual_strictly_feasible_negative_trial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.finiteLowerBound_uniform_scaled_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.shiftMass_unit_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shiftMass_square_unit_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.shiftMass_square_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaled_mass_main_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaledA_square_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.scaled_penalty_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.finiteLowerBound_scaled_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.eventual_positive_initial_interval_of_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.eventual_strictly_feasible_negative_trial_of_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.normalizedTrial_terminal_log_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.shiftMass_shiftB_nat_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.trial_terminal_scaled_correction_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CriticalExtrapolation.Paper.vector_quadratic_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.vector_quadratic_nonnegative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.vec2_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.vec2_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.vec2_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.vec2_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.vec2_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.vec2_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.actual_value_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.actual_value_scaling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CriticalExtrapolation.Paper.worstGradient_scaling_proved' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,60 +1,59 @@
-# 论文到 Lean 的定理对应表
+# 当前论文与 Lean 对应表
 
-依据：正式英文稿、中文复核稿、第 31 轮修正记录。
-下列 PaperFramework 模块的完整证明均已接回，主定理及全部上游链已通过编译与最终独立全库公理审计。
-“组合”指用已证明的上游定理连接；最终全部项目定理均无 sorryAx。
+本表对应 [当前论文](../main.pdf) 的章节结构。模块均位于 `PaperFramework/`，主定理入口为 `OriginalExtension.lean`。论文与 Lean 采用各自适合的引理分解；下表按数学内容列出代码入口。
 
-| 英文稿位置 | PaperFramework 模块 | 主要定理入口 |
-|---|---|---|
-| §1，(1.1)–(1.5) | Definitions、InstanceBounds、FunctionDilation、InstanceDilation、SmoothnessNormalization、WorstScaling、ProblemAndHuber | 实际实例值集合非空有界、实际轨迹尺度变换和最坏梯度上确界缩放均已独立审计；huber_attainment 的常梯度恢复实现已编译、独立审计并接入主入口，轨迹外延拓的方法变化已单独记录 |
-| §2，(2.1) | FirstOrderConvex、SmoothDescent、FullConjugatePotential、FullRecoveredInterpolation、Interpolation | 必要性及一般有限插值充分性已编译并独立审计；一般构造保留完整函数值截距，证明全局光滑性及全部值/梯度匹配 |
-| §1，半径等号嵌入 | RadiusCoordinates、RadiusInstance、ProblemAndHuber | 实际 d+1 维全局函数、精确初始化半径和所有 N,h,c 下的输出梯度范数保持均已编译、独立审计并接入原命题 |
-| §2，(2.2)–(2.7) | ForwardFlowAlgebra、FlowQuadratic、FlowVectorQuadratic、FlowTrajectory、FlowSlackAlgebra、FlowIdentityProof、ForwardCertificate | 完整 forward_flow_identity_proved 已编译、独立审计并接回原入口；保留任意有限维实例、实际输出梯度、全部 slack 与末端项 |
-| §3，(3.3) | TailTransform | tail_transform_recovery、tail_transform_injective 已证明 |
-| §3，(3.4)–(3.5) | TailEnergyIdentities、TridiagonalQuadratic、EnergyIdentity | tridiagonal_energy_identity 已证明，含末端边界与离散分部求和 |
-| §3，(3.6)–(3.8) | TridiagonalStructure、MatrixPositivity、CorrectionMatrix | 完整矩阵分裂、修正矩阵正性、energy_matrix_domination 已证明 |
-| §3，(3.9) | ObjectiveEnergy、ChainMatrix、Energy、RelativeConvexity | 目标能量恒等式、链矩阵表达、零和正性、c=1 正定性及相对严格凸性已证明 |
-| §3，辅助值定义 | QPValue | auxiliaryValue_attained 已证明；以给定优化器为假设，未替代优化器存在性 |
-| §3，QP 存在性证明 | QPGeometry、QPUniform、QPSlater、QPExistence | 可行集紧性与凸性、严格可行扰动、optimizer_exists_unique 已证明 |
-| §3，(3.10) | QuadraticVariation、FiniteQPFirstOrder、FarkasMultipliers、FiniteQPKKT、QPLinearConstraints、QuadraticProgramKKT | 一阶必要条件、非负乘子、原约束等价表示及 complete_kkt_exists 已证明；保留两组完整乘子 |
-| §4，(4.1)–(4.2) | FeasiblePositivity | feasibilityGap_adjacent、slope_gap_adjacent、feasible_gap_positive、feasible_terminal_positive、feasible_coordinates_positive 已证明 |
-| §4，严格次序的准备 | KKTOrderPreparation | 常值块内部斜率乘子为零、终端差分乘子为零及 finite_discrete_maximum 已证明 |
-| §4，(4.3) | TransposeIdentities、KKTCoordinates | kkt_coordinate_balance、kkt_adjacent_balance 已证明，保留完整差分乘子及左侧零边界 |
-| §4，(4.4) | SlopeCurvature、KKTStrictOrder | 零差分处的严格曲率、支撑最大值原理、optimizer_strict_order、difference_multipliers_vanish 已证明 |
-| §5，行矩归一化 | RowMomentNormalization | row_moments_sum 已证明，只需望远镜求和 |
-| §5，行矩正性 | KKTRowPositivity | kkt_row_moments_positive、row_moments_positive_normalized 已证明，不依赖流量概率非负性或端点界 |
-| §5，(5.2)、(5.5) | PlateauRecurrences、FiniteIntervalSums、PlateauSums、NonterminalPlateau、TerminalPlateauSums、TerminalPlateau、OrderAndPlateaus | 两类端点界已证明并通过独立审计，保留辅助值为零的边界 |
-| §6，(6.1)–(6.7) | FlowProbabilities、FlowConservation、FlowMoments、FlowMatrixAction、FlowSlopeAction、FlowSignRecurrence、FlowTransport、FlowEntrySums、FlowOffDiagonal、ProductFlow | 概率、平衡、行矩、矩阵核、非对角符号与矩阵非负性均已证明并通过审计 |
-| §6，(6.8) | Sufficiency | qp_sufficiency，组合流量证书 |
-| §7，(7.1)–(7.5) | FeasibleFloor、NormalizedEnergyBound、ShiftedEnergy、EnergyLowerBound | 可行坐标下限、仿射平移、全空间能量下界与 qp_energy_lower_bound 已证明，末端修正项完整保留 |
-| §8 | TrialBasics、TrialSlopeScalar、TrialRightScalar、TrialFunctional、TrialProfiles、TrialDirection | trial_strict_feasibility 已整体编译通过，按文档两端分别估计再合并 |
-| §9 | TrialNormalization、TrialBaseline、TrialMajorant、TrialPerturbationAlgebra、TrialPerturbationProfiles、TrialUniformLimitProof、TrialAsymptotics | baseline 正性/支配、归一化、J 精确恒等式、单调尾和及末端界已独立审计；一致极限的归一化组合已证明，真实参考能量主项已由 TrialReferenceEnergyError、TrialReferenceModelLimit 完整编译并接回，独立审计已通过；一致参数扰动已完整编译接入，新增公理审计已通过 |
-| §10 | ReferenceRatio、ScaledParameters、UniformSigns、UniformLimit | 缩放坐标及条件极限的符号后果已编译；UniformAuxiliaryProof 与 TrialScaledLimitProof 已完整证明并接回两个缩放一致极限，完整主入口编译已通过 |
-| §11，(11.1)–(11.5) | NegativeAlgebra、VecTwo、NegativeRadius、NegativeSmall、NegativePolynomial、NegativeLocalSlacks、NegativeLeading、NegativeBackward、NegativeSlackSigns、NegativeAllSlacks、NegativeData | 递推、slack 多项式及半径展开/严格改善已编译；相邻及特殊源节点约束已编译并审计；全部有向约束已通过编译并替换原占位；有限数据组合已通过独立公理审计 |
-| §11，(11.6) | ConjugateBasics、ConjugatePotential、ConjugateGrowth、ConjugateExistence、RecoveredSmoothness、RecoveredInterpolation、PerturbationRecovery、PerturbationTrajectory、InstanceDilation、NegativeInstance、GlobalRealization | 全局优化器存在唯一性、恢复函数光滑性、特殊插值、实际轨迹、缩放和 negative_direction_realization_proved 均已通过编译及独立公理审计 |
-| §11，负辅助值的严格扰动 | QPStrictNegative | negative_optimizer_has_strict_negative_direction 已证明 |
-| §12 | FiniteLowerAtOne、InitialInterval、PositiveQuadraticContinuity、ChainContinuity、CriticalInterval | 最终纯区间极限已证明；h=1 有限下界已编译并审计，逐函数衔接及近 c=1 的有限区间衔接已通过编译；正定性邻域、链流量合法性、实际二次函数大系数失败均已独立审计；上游链已全部完成，完整夹逼与主定理编译已通过；最终全库独立审计已通过 |
-| 主定理 (1.4) | Main | sharp_critical_scale、main_theorem，组合区间夹逼 |
+| 论文内容 | 模块入口 |
+|---|---|
+| §2：函数类、轨迹、最坏梯度、缩放与 Huber 下界 | `Definitions`、`InstanceBounds`、`WorstScaling`、`ProblemAndHuber` |
+| §2：c_crit 定义 | `OriginalCritical` 中的 `originalCriticalCoefficient` |
+| §3：插值不等式、流恒等式与证书 | `Interpolation`、`FlowIdentityProof`、`ForwardCertificate`、`Sufficiency` |
+| §4：尾和变换、三对角能量与正性 | `TailTransform`、`EnergyIdentity`、`TridiagonalStructure`、`CorrectionMatrix` |
+| §4：辅助规划的适定性 | `QPGeometry`、`QPSlater`、`QPExistence`、`RelativeConvexity` |
+| §4：平移恒等式与能量下界 | `FeasibleFloor`、`NormalizedEnergyBound`、`ShiftedEnergy`、`EnergyLowerBound` |
+| §4：下侧精确性与 h=1 | `UniformSigns`、`FiniteLowerAtOne`、`CriticalInterval` |
+| §5：负方向、有限插值数据、全局二维函数 | `NegativeData`、`PerturbationRecovery`、`NegativeInstance`、`GlobalRealization` |
+| §6：全参数严格可行性 | `OriginalFeasibility` |
+| §6：紧区间上一致能量上界 | `OriginalEnergy` |
+| §6：末端项与统一负目标 | `OriginalObjective` |
+| §6：二次函数尾部 | `OriginalQuadratic` |
+| §6–7：整个右侧失效、上确界夹逼与主极限 | `OriginalCritical` |
+| 附录 A：KKT、严格次序、行矩、流及半正定性 | `QuadraticProgramKKT`、`KKTStrictOrder`、`OrderAndPlateaus`、`ProductFlow`、`Sufficiency` |
+| 附录 B：参考能量、归一化与加权和 | `TrialReferenceEnergyError`、`TrialReferenceModelLimit`、`TrialNormalization`、`TrialWeightedSum`、`TrialAsymptotics` |
+| 附录 C：局部过渡律 | `UniformAuxiliaryProof`、`TrialScaledLimitProof`、`UniformLimit` |
 
-基础库 `CriticalExtrapolation` 已证明的 40 条定理包括修正权重、倒数和对数渐近、
-有限求和、一般平方和非负性、流量支持以及逐函数轨道连续性。
-完整清单见 `AxiomAudit.lean`；框架逐定理的占位清单见
-`verification/framework_obligations.json`。
-能量与严格凸性子链的 68 条定理见 `EnergyAudit.lean`。
-`tridiagonal_energy_identity`、`homogeneousEnergy_positive`、`objective_positive_on_zero_sum`、
-`chain_at_one_positive` 和 `relative_strict_convexity` 均已补全证明并纳入无占位审计范围。
-QP、完整 KKT、严格次序、平段端点及流量子链的 198 条定理见 `QPAudit.lean`。负值扰动结论给出严格可行负方向；它随后通过独立审计的第 11 节链实现为实际二维全局函数反例。
+## 主结论
 
-## 必须保留的语义
+- `original_eventual_upper_failure_fixed_step`：存在最终统一的 N 阈值，使所有 c≥c_+ 严格失效。
+- `original_critical_sandwich`：c_−≤c_crit≤c_+。
+- `original_sharp_critical_scale`：hN√log N (c_crit−1)→1。
+- `original_critical_increment_small`：N(c_crit−1)→0。
+- `original_conjecture_5_1_false`：否定猜想的正逆线性下界。
 
-- 实际函数在任意有限维 `EuclideanSpace ℝ (Fin d)` 上全局凸、可微，梯度 L-Lipschitz，有极小点与初始半径约束。
-- 输出 y 与末端 x_N 分开，q 是输出梯度。
-- `criticalCoefficient` 是整个 [1,C] 的实际最坏值等式区间端点，未定义成 QP 根。
-- 只有 N 个斜率分量、N−1 个相邻比较，无终端零斜率条件。
-- 正流量边仅约束 i 到 j−1 的斜率。
-- 原始权重采用已修正公式；倒数误差取绝对值；支配常数为 3。
-- 主极限固定 h；未扩展为 h 随 N 趋零的一致命题。
-- h=1 的下界先逐函数取步长极限，再取实例上确界。
+精确声明见 [OriginalAudit.lean](OriginalAudit.lean)，全右侧估计依赖链见 [ORIGINAL_PROOF_MAP.md](ORIGINAL_PROOF_MAP.md)，核验材料见 [核验索引](verification/original_extension/README.md)。
 
+## 主问题的语义核对（2026-10-15）
 
-假设修正与证明方法重组单独记录在 FORMALIZATION_NOTES.md。扩展解析审计的实际成功范围以 verification/analytic_summary.json 为准，编译状态以 STATUS.md 为准。
+核对对象为论文第 2 节的定义、定理 2.1 和推论 2.2，以及 `OriginalExtension` 导出的声明。主极限所涉及的问题一致。
+
+| 数学对象或量词 | Lean 对应及核对结果 |
+|---|---|
+| 全局光滑凸函数、存在极小点、初始距离不超过 D | `CriticalExtrapolation/Problem.lean` 的 `Instance`；凸性和梯度 Lipschitz 条件均在整个欧氏空间上成立 |
+| N 次梯度下降，步长 h/L，输出 x₀+c(x_N−x₀) | `iterate`、`output`；性能指标是输出处的梯度范数 |
+| 对所有有限维实际函数实例取上确界 | `worstGradient`；`InstanceBounds` 证明取值集合非空、有界 |
+| c_crit 是全部等式成立点的上确界 | `originalValiditySet`、`originalCriticalCoefficient`；最终主定理使用此定义 |
+| 固定 0<h≤1，下侧整个区间精确 | `eventual_lower_interval_fixed_step`；包含 h=1，阈值先于 c 选取 |
+| 上侧所有 c≥c₊ 严格失效 | `original_eventual_upper_failure_fixed_step`；负方向覆盖有界部分，二次函数覆盖无界尾部 |
+| hN√log N(c_crit−1)→1 | `original_sharp_critical_scale`；仅假设 L,D>0 和 0<h≤1 |
+| N(c_crit−1)→0 及猜想的否定 | `original_critical_increment_small` 对所有固定 h 成立；`original_conjecture_5_1_false` 取 h=L=D=1，排除正的逆线性下界 |
+
+有三处表达方式需要区分：
+
+- 论文令 d≥1，Lean 允许 d=0。零维空间只贡献梯度范数 0；一维常函数已经贡献同一个值，因此上确界不变。
+- Lean 的区间和失效定理先固定 L,D。由 `worstGradient_scaling_proved` 的恒等式 P(c;L,D)=LD·P(c;1,1)，可先在 L=D=1 选取 N₀，再用于所有 L,D>0。这给出论文中 N₀(h,ε) 的量词次序，也说明 c_crit 与 L,D 无关。
+- `negative_direction_realization_proved` 显式返回二维实例；尾部证明使用一维二次函数。反例定理的类型只要求距离≤D，但具体构造满足距离=D：前者将半径 R>0 的实例按 D/R 缩放，后者将单位向量按 D 缩放。这个等式目前未作为单独的导出定理声明。
+
+旧的 `criticalCoefficient` 表示初始有效区间的端点，仍保留在基础库中；当前论文主定理对应 `originalCriticalCoefficient`，两者没有在最终声明中混用。
+
+随后进行的提交前检查重新运行了完整 `lake build`（2866 jobs，退出码 0）及当前全部 717 条定理的公理审计，均于 2026-10-15 通过。仅修订审计脚本，Lean 数学证明未改动；历史审计证据保持原样。本次记录见[提交前检查](verification/pre_submission.json)。上述语义核对是对声明和具体构造的人工数学检查，区别于编译与公理审计。
+
+旧稿节号对应表保存在 `archive/article_revisions/20261015_project_cleanup/lean_formalization/PROOF_MAP.md`。

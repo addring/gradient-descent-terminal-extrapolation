@@ -1,0 +1,24 @@
+import OriginalExtension
+
+#print CriticalExtrapolation.Paper.originalValiditySet
+#print CriticalExtrapolation.Paper.originalCriticalCoefficient
+#print CriticalExtrapolation.Paper.original_eventual_upper_failure_fixed_step
+#print CriticalExtrapolation.Paper.original_sharp_critical_scale
+#print axioms CriticalExtrapolation.Paper.original_reciprocal_margin
+#print axioms CriticalExtrapolation.Paper.original_trial_coefficient_positive
+#print axioms CriticalExtrapolation.Paper.original_trial_functional_positive
+#print axioms CriticalExtrapolation.Paper.original_trial_strict_feasibility
+#print axioms CriticalExtrapolation.Paper.original_energy_perturbation_upper
+#print axioms CriticalExtrapolation.Paper.original_energy_eventual_upper
+#print axioms CriticalExtrapolation.Paper.original_trial_identity
+#print axioms CriticalExtrapolation.Paper.original_terminal_log_upper
+#print axioms CriticalExtrapolation.Paper.original_negative_scalar
+#print axioms CriticalExtrapolation.Paper.original_eventual_negative_trial
+#print axioms CriticalExtrapolation.Paper.original_quadratic_tail_decay
+#print axioms CriticalExtrapolation.Paper.original_quadratic_tail_failure
+#print axioms CriticalExtrapolation.Paper.original_eventual_upper_failure_fixed_step
+#print axioms CriticalExtrapolation.Paper.original_critical_sandwich
+#print axioms CriticalExtrapolation.Paper.original_sharp_critical_scale
+#print axioms CriticalExtrapolation.Paper.original_critical_increment_small
+#print axioms CriticalExtrapolation.Paper.original_no_positive_inverse_linear_lower_bound
+#print axioms CriticalExtrapolation.Paper.original_conjecture_5_1_false

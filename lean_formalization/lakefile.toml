@@ -1,6 +1,6 @@
 name = "critical_extrapolation"
 version = "0.1.0"
-defaultTargets = ["CriticalExtrapolation", "PaperFramework"]
+defaultTargets = ["CriticalExtrapolation", "PaperFramework", "OriginalExtension"]
 
 [leanOptions]
 autoImplicit = false
@@ -15,3 +15,6 @@ name = "CriticalExtrapolation"
 
 [[lean_lib]]
 name = "PaperFramework"
+
+[[lean_lib]]
+name = "OriginalExtension"

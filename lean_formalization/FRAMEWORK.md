@@ -1,8 +1,10 @@
 # 框架与依赖链
 
-入口：`PaperFramework.lean` → `PaperFramework/Main.lean`。
-所有新定理位于 `CriticalExtrapolation.Paper` 命名空间。
-主定理通过实际有效区间与严格失败点的夹逼完成；全部源占位已消除，两次完整构建及最终全库独立审计均通过。
+当前原定义入口：`OriginalExtension.lean` → `PaperFramework/OriginalCritical.lean` → `original_sharp_critical_scale`。新增 18 条定理与完整工程构建已通过，详细依赖链见 [ORIGINAL_PROOF_MAP.md](ORIGINAL_PROOF_MAP.md)。该入口处理原论文逐点等式集合上确界 `originalCriticalCoefficient`。
+
+此前初始区间版本入口：`PaperFramework.lean` → `PaperFramework/Main.lean`。以下大图展示其既有证明链，通过有效区间与严格失败点夹逼处理 `criticalCoefficient`；其 699 条定理的历史审计与新增 18 条审计分开保存。
+
+两条证明链均位于 `CriticalExtrapolation.Paper` 命名空间。未声明有限 N 两种临界系数相等。
 
 下面是证明链的概念依赖图，不是从 Lean 内核导出的常量依赖图。
 该图展示证明结构；准确的模块导入关系和公理依赖以验证目录中的实际输出为准。

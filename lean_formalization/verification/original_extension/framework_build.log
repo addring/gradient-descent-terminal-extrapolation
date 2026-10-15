@@ -1,0 +1,556 @@
+
+FILE CombinedOriginal.lean
+interpretation of Mathlib.Linter.UnusedTactic.allowedRef took 125ms
+interpretation of _private.Mathlib.Tactic.Linter.UnusedTactic.0.Mathlib.Linter.UnusedTactic.ignoreTacticKindsRef took 105ms
+interpretation of Batteries.Tactic.initFn._@.Batteries.Tactic.Trans.2247956323._hygCtx._hyg.2 took 317ms
+interpretation of Batteries.Tactic.initFn._@.Batteries.Tactic.Trans.2247956323._hygCtx._hyg.2 took 374ms
+interpretation of Batteries.Tactic.transExt took 220ms
+interpretation of Mathlib.StacksTag.initFn._@.Mathlib.Tactic.StacksAttribute.243336517._hygCtx._hyg.2 took 106ms
+interpretation of Mathlib.Tactic.Bound.initFn._@.Mathlib.Tactic.Bound.Attribute.1868565755._hygCtx._hyg.2 took 160ms
+interpretation of Plausible.initFn._@.Plausible.DeriveArbitrary.3192332529._hygCtx._hyg.2 took 1.37s
+interpretation of Batteries.Tactic.initFn._@.Batteries.Tactic.GeneralizeProofs.228762948._hygCtx._hyg.2 took 189ms
+interpretation of Batteries.Tactic.initFn._@.Batteries.Tactic.GeneralizeProofs.228762948._hygCtx._hyg.2 took 217ms
+interpretation of statesearch.revision took 347ms
+interpretation of Mathlib.Tactic.Abel.abel took 116ms
+interpretation of Mathlib.Tactic.tacticAlgebraize__ took 107ms
+interpretation of Mathlib.Tactic.Module.NF._aux_Mathlib_Tactic_Module___macroRules_Mathlib_Tactic_Module_NF_term_::ᵣ__1 took 174ms
+interpretation of _aux_Mathlib_Topology_Algebra_Module_Equiv___macroRules_term_≃SL[_]__1 took 128ms
+interpretation of Lean.Elab.Term.elabWithoutCDot took 158ms
+interpretation of Mathlib.Meta.Positivity.initFn._lam_4._@.Mathlib.Tactic.Positivity.Core.874831270._hygCtx._hyg.2._boxed took 112ms
+import took 705s
+elaboration took 127ms
+interpretation of Mathlib.Meta.NormNum.evalOfNat._lam_1._boxed took 163ms
+ring took 414ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 1.15s
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 191ms
+ring took 105ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 631ms
+interpretation of Mathlib.Meta.Positivity.evalAdd._lam_0._boxed took 277ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 258ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 141ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 194ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 140ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 250ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 125ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 152ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 142ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 155ms
+type checking took 215ms
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:29:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+interpretation of Mathlib.Meta.NormNum.evalOfNat._lam_1._boxed took 187ms
+ring took 414ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 1.11s
+typeclass inference of OfNat took 127ms
+typeclass inference of CanonicallyOrderedAdd took 127ms
+simp took 114ms
+interpretation of Mathlib.Meta.Positivity.evalAdd._lam_0._boxed took 240ms
+typeclass inference of CanonicallyOrderedAdd took 104ms
+simp took 138ms
+norm_num took 154ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 348ms
+typeclass inference of CanonicallyOrderedAdd took 116ms
+typeclass inference of Nat.AtLeastTwo took 116ms
+simp took 174ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 282ms
+typeclass inference of CanonicallyOrderedAdd took 101ms
+simp took 107ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 183ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 495ms
+ring took 117ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 253ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 180ms
+type checking took 219ms
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:92:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+linting took 116ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_NormNum_Core___elabRules_Mathlib_Tactic_normNum_1._boxed took 136ms
+interpretation of Mathlib.Meta.Positivity.evalDiv._lam_0._boxed took 470ms
+ring took 270ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 900ms
+ring took 128ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 356ms
+interpretation of Mathlib.Meta.Positivity.evalDiv._lam_0._boxed took 564ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_SplitIfs___elabRules_Mathlib_Tactic_splitIfs_1._boxed took 329ms
+interpretation of Mathlib.Meta.NormNum.evalNatCast._lam_1._boxed took 129ms
+ring took 333ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 721ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 146ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 269ms
+ring took 155ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 451ms
+tactic execution of Mathlib.Tactic.linarith took 149ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 1.17s
+interpretation of Mathlib.Meta.Positivity.evalAdd._lam_0._boxed took 120ms
+interpretation of Lean.Elab.Tactic._aux_Mathlib_Tactic_Widget_Calc___elabRules_Lean_calcTactic_1._boxed took 106ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 178ms
+type checking took 108ms
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:189:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+norm_num took 112ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Convert___elabRules_Mathlib_Tactic_convert_1._boxed took 824ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Convert___elabRules_Mathlib_Tactic_convert_1._boxed took 113ms
+interpretation of Mathlib.Meta.NormNum.evalAdd._lam_13._boxed took 102ms
+ring took 123ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 156ms
+interpretation of Mathlib.Meta.Positivity.evalDiv._lam_0._boxed took 300ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 525ms
+type checking took 101ms
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:246:8: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:246:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:222:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:228:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ring took 364ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 665ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 325ms
+ring took 102ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Order_Filter_Defs___elabRules_Mathlib_Tactic_filterUpwards_1._boxed took 187ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 611ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 435ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 439ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 341ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 232ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 140ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 132ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 107ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 149ms
+tactic execution of Lean.Parser.Tactic.change took 101ms
+tactic execution of Lean.Parser.Tactic.rewriteSeq took 105ms
+type checking took 188ms
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:302:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:315:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:338:28: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ring took 141ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 679ms
+tactic execution of Lean.Parser.Tactic.change took 145ms
+ring took 236ms
+simp took 176ms
+tactic execution of Mathlib.Tactic.FieldSimp.fieldSimp took 751ms
+interpretation of Lean.Elab.Tactic._aux_Mathlib_Tactic_Widget_Calc___elabRules_Lean_calcTactic_1._boxed took 205ms
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:388:10: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:388:10: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+interpretation of _aux_Mathlib_Tactic_Spread___macroRules_Lean_Parser_Term_structInst_1._boxed took 124ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 506ms
+ring took 174ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 153ms
+interpretation of Mathlib.Meta.Positivity.evalDiv._lam_0._boxed took 229ms
+norm_num took 105ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 348ms
+tactic execution of Mathlib.Tactic.linarith took 306ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 1.23s
+tactic execution of Mathlib.Tactic.linarith took 213ms
+interpretation of Mathlib.Meta.Positivity.evalMul._lam_3._boxed took 133ms
+tactic execution of Mathlib.Tactic.FieldSimp.fieldSimp took 314ms
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:419:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 657ms
+interpretation of Mathlib.Meta.NormNum.evalOfNat._lam_1._boxed took 117ms
+ring took 120ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 871ms
+tactic execution of Mathlib.Tactic.nlinarith took 396ms
+ring took 117ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tacinterpretation of PiNotation.delabPi._boxed took 112ms
+tic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 421ms
+interpretation of Mathlib.Meta.Positivity.evalDiv._lam_0._boxed took 282ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 171ms
+typeclass inference of PosMulReflectLT took 106ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 151ms
+interpretation of Mathlib.Meta.Positivity.evalMul._lam_3._boxed took 392ms
+ring took 148ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 1.34s
+interpretation of Mathlib.Meta.Positivity.evalDiv._lam_0._boxed took 230ms
+type checking took 127ms
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:501:4: warning: 'change
+  l *
+      (t ^ 2 * homogeneousEnergy a t (normalizedTrial N t) - a ^ 2 - a * (a + t) ^ 2 / (N : ℝ) +
+        originalTerminal a t (normalizedTrial N t) i) <
+    0' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:483:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_linarith_1._boxed took 580ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 274ms
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:554:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+interpretation of Batteries.Tactic._aux_Batteries_Tactic_Init___macroRules_Batteries_Tactic_tacticBy_contra_core_1 took 148ms
+typeclass inference of Decidable took 153ms
+interpretation of Mathlib.Meta.Positivity.evalNatCast._lam_1._boxed took 237ms
+interpretation of Mathlib.Tactic.FieldSimp._aux_Mathlib_Tactic_FieldSimp___elabRules_Mathlib_Tactic_FieldSimp_fieldSimp_1._boxed took 1.61s
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:608:6: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+C:/Users/13412/AppData/Local/Temp/gd_original_lean/CombinedOriginal.lean:608:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+interpretation of Mathlib.Tactic._aux_Mathlib_Order_Filter_Defs___elabRules_Mathlib_Tactic_filterUpwards_1._boxed took 105ms
+interpretation of Mathlib.Tactic._aux_Mathlib_Tactic_Linarith_Frontend___elabRules_Mathlib_Tactic_nlinarith_1._boxed took 669ms
+def CriticalExtrapolation.Paper.originalValiditySet : ℕ → ℝ → ℝ → ℝ → Set ℝ :=
+fun N h L D => {c | 1 ≤ c ∧ CriticalExtrapolation.worstGradient N h c L D = L * D / CriticalExtrapolation.Paper.S N h c}
+def CriticalExtrapolation.Paper.originalCriticalCoefficient : ℕ → ℝ → ℝ → ℝ → ℝ :=
+fun N h L D => sSup (CriticalExtrapolation.Paper.originalValiditySet N h L D)
+theorem CriticalExtrapolation.Paper.original_eventual_upper_failure_fixed_step : ∀ (h L D ε : ℝ),
+  0 < h →
+    h ≤ 1 →
+      0 < L →
+        0 < D →
+          0 < ε →
+            ∀ᶠ (N : ℕ) in Filter.atTop,
+              ∀ c ≥ CriticalExtrapolation.Paper.scaledC N h (1 + ε),
+                L * D / CriticalExtrapolation.Paper.S N h c < CriticalExtrapolation.worstGradient N h c L D :=
+fun h L D ε hh hh1 hL hD hε =>
+  have hnegative := CriticalExtrapolation.Paper.original_eventual_negative_trial h ε hh hh1 hε;
+  have htail := CriticalExtrapolation.Paper.original_quadratic_tail_failure h L D hh hh1 hL hD;
+  have hlarge := Filter.Tendsto.eventually tendsto_natCast_atTop_atTop (Filter.eventually_ge_atTop (4 * (1 / h)));
+  Filter.mp_mem (Filter.eventually_gt_atTop 1)
+    (Filter.mp_mem hlarge
+      (Filter.mp_mem htail
+        (Filter.mp_mem hnegative
+          (Filter.univ_mem'
+            (id fun N hneg hquad hsize hN c hc =>
+              have hn :=
+                cast (Eq.symm (Eq.trans (congrArg (fun x => x < ↑N) (Eq.symm Nat.cast_zero)) Nat.cast_lt._simp_1))
+                  (have this :=
+                    Decidable.byContradiction fun a =>
+                      CriticalExtrapolation.Paper.original_eventual_upper_failure_fixed_step._proof_1_1 N hN a;
+                  this);
+              have hc1 :=
+                LE.le.trans
+                  (CriticalExtrapolation.Paper.scaledC_ge_one N h (1 + ε) hh
+                    (le_of_not_gt fun a =>
+                      Mathlib.Tactic.Linarith.lt_irrefl
+                        (Eq.mp
+                          (congrArg (fun _a => _a < 0)
+                            (Mathlib.Tactic.Ring.of_eq
+                              (Mathlib.Tactic.Ring.add_congr
+                                (Mathlib.Tactic.Ring.add_congr
+                                  (Mathlib.Tactic.Ring.neg_congr
+                                    (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+                                    (Mathlib.Tactic.Ring.neg_add
+                                      (Mathlib.Tactic.Ring.neg_one_mul
+                                        (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                          (Mathlib.Meta.NormNum.isInt_mul (Eq.refl HMul.hMul)
+                                            (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                            (Mathlib.Meta.NormNum.IsNat.to_isInt
+                                              (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                            (Eq.refl (Int.negOfNat 1)))))
+                                      Mathlib.Tactic.Ring.neg_zero))
+                                  (Mathlib.Tactic.Ring.sub_congr
+                                    (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                                    (Mathlib.Tactic.Ring.atom_pf ε)
+                                    (Mathlib.Tactic.Ring.sub_pf
+                                      (Mathlib.Tactic.Ring.neg_add
+                                        (Mathlib.Tactic.Ring.neg_mul ε (Nat.rawCast 1)
+                                          (Mathlib.Tactic.Ring.neg_one_mul
+                                            (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                              (Mathlib.Meta.NormNum.isInt_mul (Eq.refl HMul.hMul)
+                                                (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                                (Mathlib.Meta.NormNum.IsNat.to_isInt
+                                                  (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                                (Eq.refl (Int.negOfNat 1))))))
+                                        Mathlib.Tactic.Ring.neg_zero)
+                                      (Mathlib.Tactic.Ring.add_pf_zero_add
+                                        (ε ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast + 0))))
+                                  (Mathlib.Tactic.Ring.add_pf_add_lt (Int.negOfNat 1).rawCast
+                                    (Mathlib.Tactic.Ring.add_pf_zero_add
+                                      (ε ^ Nat.rawCast 1 * (Int.negOfNat 1).rawCast + 0))))
+                                (Mathlib.Tactic.Ring.sub_congr
+                                  (Mathlib.Tactic.Ring.add_congr
+                                    (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+                                    (Mathlib.Tactic.Ring.atom_pf ε)
+                                    (Mathlib.Tactic.Ring.add_pf_add_lt (Nat.rawCast 1)
+                                      (Mathlib.Tactic.Ring.add_pf_zero_add (ε ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))
+                                  (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))
+                                  (Mathlib.Tactic.Ring.sub_pf Mathlib.Tactic.Ring.neg_zero
+                                    (Mathlib.Tactic.Ring.add_pf_add_zero
+                                      (Nat.rawCast 1 + (ε ^ Nat.rawCast 1 * Nat.rawCast 1 + 0)))))
+                                (Mathlib.Tactic.Ring.add_pf_add_overlap_zero
+                                  (Mathlib.Meta.NormNum.IsInt.to_isNat
+                                    (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                                      (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                      (Eq.refl (Int.ofNat 0))))
+                                  (Mathlib.Tactic.Ring.add_pf_add_overlap_zero
+                                    (Mathlib.Tactic.Ring.add_overlap_pf_zero ε (Nat.rawCast 1)
+                                      (Mathlib.Meta.NormNum.IsInt.to_isNat
+                                        (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                                          (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                          (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                          (Eq.refl (Int.ofNat 0)))))
+                                    (Mathlib.Tactic.Ring.add_pf_zero_add 0))))
+                              (Mathlib.Tactic.Ring.cast_zero (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero))))
+                          (Mathlib.Tactic.Linarith.add_neg
+                            (Mathlib.Tactic.Linarith.add_neg (neg_neg_of_pos Mathlib.Tactic.Linarith.zero_lt_one)
+                              (Mathlib.Tactic.Linarith.sub_neg_of_lt hε))
+                            (Mathlib.Tactic.Linarith.sub_neg_of_lt a)))))
+                  hc;
+              have hp :=
+                {
+                  n_pos :=
+                    Decidable.byContradiction fun a =>
+                      CriticalExtrapolation.Paper.original_eventual_upper_failure_fixed_step._proof_1_1 N hN a,
+                  h_pos := hh, h_le_one := hh1, c_ge_one := hc1 };
+              let a := ↑N * (c - 1);
+              have ha :=
+                Eq.mpr
+                  (id
+                    (congrArg (fun _a => _a ≤ a)
+                      (Eq.symm (CriticalExtrapolation.Paper.scaledA_identity N h (1 + ε) hN hh))))
+                  (mul_le_mul_of_nonneg_left (sub_le_sub_right hc 1) (LT.lt.le hn));
+              have hceq :=
+                id
+                  (Eq.mpr
+                    (id
+                      (Mathlib.Tactic.FieldSimp.eq_eq_cancel_eq
+                        (Mathlib.Tactic.FieldSimp.eq_mul_of_eq_eq_eq_mul rfl
+                          (Eq.trans
+                            (Mathlib.Tactic.FieldSimp.subst_add
+                              (Mathlib.Tactic.FieldSimp.eq_mul_of_eq_eq_eq_mul rfl
+                                (Eq.trans (Mathlib.Tactic.FieldSimp.NF.one_eq_eval ℝ)
+                                  (Eq.symm (one_mul (Mathlib.Tactic.FieldSimp.NF.eval []))))
+                                rfl (Mathlib.Tactic.FieldSimp.eq_div_of_eq_one_of_subst (Eq.symm (div_one 1)) rfl))
+                              (Mathlib.Tactic.FieldSimp.eq_mul_of_eq_eq_eq_mul
+                                (Eq.trans (congr_arg₂ HDiv.hDiv (Eq.trans (congr_arg₂ HMul.hMul rfl rfl) rfl) rfl) rfl)
+                                (Eq.trans
+                                  (Mathlib.Tactic.FieldSimp.NF.div_eq_eval
+                                    (Mathlib.Tactic.FieldSimp.NF.mul_eq_eval
+                                      (Eq.trans (Eq.refl ↑N) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval ↑N))
+                                      (Mathlib.Tactic.FieldSimp.subst_sub
+                                        (Mathlib.Tactic.FieldSimp.eq_mul_of_eq_eq_eq_mul rfl
+                                          (Eq.trans (Eq.trans (Eq.refl c) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval c))
+                                            (Eq.symm
+                                              (Mathlib.Tactic.FieldSimp.NF.eval_mul_eval_cons 1 c
+                                                (one_mul (Mathlib.Tactic.FieldSimp.NF.eval [])))))
+                                          rfl
+                                          (Mathlib.Tactic.FieldSimp.eq_div_of_eq_one_of_subst
+                                            (Mathlib.Tactic.FieldSimp.NF.cons_eq_div_of_eq_div 1 c
+                                              (Eq.symm (div_one 1)))
+                                            (Eq.mpr
+                                              (id
+                                                (congrArg (fun _a => _a = c)
+                                                  (Mathlib.Tactic.FieldSimp.NF.eval_cons (1, c) [])))
+                                              (Eq.trans (one_mul (Mathlib.Tactic.FieldSimp.zpow' (1, c).2 (1, c).1))
+                                                (Mathlib.Tactic.FieldSimp.zpow'_one c)))))
+                                        (Mathlib.Tactic.FieldSimp.eq_mul_of_eq_eq_eq_mul rfl
+                                          (Eq.trans (Mathlib.Tactic.FieldSimp.NF.one_eq_eval ℝ)
+                                            (Eq.symm (one_mul (Mathlib.Tactic.FieldSimp.NF.eval []))))
+                                          rfl
+                                          (Mathlib.Tactic.FieldSimp.eq_div_of_eq_one_of_subst (Eq.symm (div_one 1))
+                                            rfl))
+                                        (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval (c - 1))
+                                        (one_mul ((1, c - 1) ::ᵣ []).eval))
+                                      (Mathlib.Tactic.FieldSimp.NF.mul_eq_eval₃ (1, c - 1)
+                                        (mul_one ((1, ↑N) ::ᵣ []).eval)))
+                                    (Eq.trans (Eq.refl ↑N) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval ↑N))
+                                    (Mathlib.Tactic.FieldSimp.NF.div_eq_eval₁ (1, c - 1)
+                                      (Mathlib.Tactic.FieldSimp.NF.div_eq_eval₂ 1 1 (↑N)
+                                        (Mathlib.Tactic.FieldSimp.NF.one_div_eq_eval []))))
+                                  (Eq.symm
+                                    (Mathlib.Tactic.FieldSimp.NF.eval_mul_eval_cons 1 (c - 1)
+                                      (Mathlib.Tactic.FieldSimp.NF.eval_mul_eval_cons_zero
+                                        (one_mul (Mathlib.Tactic.FieldSimp.NF.eval []))
+                                        (Mathlib.Tactic.FieldSimp.NF.eval_cons_of_pow_eq_zero
+                                          (of_decide_eq_true (id (Eq.refl true)))
+                                          (ne_of_gt
+                                            (Nat.cast_pos'.mpr
+                                              (lt_trans
+                                                (Mathlib.Meta.Positivity.pos_of_isNat
+                                                  (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1))
+                                                  (Eq.refl (Nat.ble 1 1)))
+                                                hN)))
+                                          [])))))
+                                rfl
+                                (Mathlib.Tactic.FieldSimp.eq_div_of_eq_one_of_subst
+                                  (Mathlib.Tactic.FieldSimp.NF.cons_eq_div_of_eq_div 1 (c - 1) (Eq.symm (div_one 1)))
+                                  (Eq.mpr
+                                    (id
+                                      (congrArg (fun _a => _a = c - 1)
+                                        (Mathlib.Tactic.FieldSimp.NF.eval_cons (1, c - 1) [])))
+                                    (Eq.trans (one_mul (Mathlib.Tactic.FieldSimp.zpow' (1, c - 1).2 (1, c - 1).1))
+                                      (Mathlib.Tactic.FieldSimp.zpow'_one (c - 1))))))
+                              (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval (1 + (c - 1)))
+                              (one_mul ((1, 1 + (c - 1)) ::ᵣ []).eval))
+                            (Eq.symm
+                              (Mathlib.Tactic.FieldSimp.NF.eval_mul_eval_cons 1 (1 + (c - 1))
+                                (one_mul (Mathlib.Tactic.FieldSimp.NF.eval [])))))
+                          rfl
+                          (Mathlib.Tactic.FieldSimp.eq_div_of_eq_one_of_subst
+                            (Mathlib.Tactic.FieldSimp.NF.cons_eq_div_of_eq_div 1 (1 + (c - 1)) (Eq.symm (div_one 1)))
+                            (Eq.mpr
+                              (id
+                                (congrArg (fun _a => _a = 1 + (c - 1))
+                                  (Mathlib.Tactic.FieldSimp.NF.eval_cons (1, 1 + (c - 1)) [])))
+                              (Eq.trans (one_mul (Mathlib.Tactic.FieldSimp.zpow' (1, 1 + (c - 1)).2 (1, 1 + (c - 1)).1))
+                                (Mathlib.Tactic.FieldSimp.zpow'_one (1 + (c - 1)))))))
+                        (Mathlib.Tactic.FieldSimp.eq_mul_of_eq_eq_eq_mul rfl
+                          (Eq.trans (Eq.trans (Eq.refl c) (Mathlib.Tactic.FieldSimp.NF.atom_eq_eval c))
+                            (Eq.symm
+                              (Mathlib.Tactic.FieldSimp.NF.eval_mul_eval_cons 1 c
+                                (one_mul (Mathlib.Tactic.FieldSimp.NF.eval [])))))
+                          rfl
+                          (Mathlib.Tactic.FieldSimp.eq_div_of_eq_one_of_subst
+                            (Mathlib.Tactic.FieldSimp.NF.cons_eq_div_of_eq_div 1 c (Eq.symm (div_one 1)))
+                            (Eq.mpr (id (congrArg (fun _a => _a = c) (Mathlib.Tactic.FieldSimp.NF.eval_cons (1, c) [])))
+                              (Eq.trans (one_mul (Mathlib.Tactic.FieldSimp.zpow' (1, c).2 (1, c).1))
+                                (Mathlib.Tactic.FieldSimp.zpow'_one c)))))
+                        one_ne_zero))
+                    (Mathlib.Tactic.Ring.of_eq
+                      (Mathlib.Tactic.Ring.add_congr
+                        (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+                        (Mathlib.Tactic.Ring.sub_congr (Mathlib.Tactic.Ring.atom_pf c)
+                          (Mathlib.Tactic.Ring.cast_pos (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+                          (Mathlib.Tactic.Ring.sub_pf
+                            (Mathlib.Tactic.Ring.neg_add
+                              (Mathlib.Tactic.Ring.neg_one_mul
+                                (Mathlib.Meta.NormNum.IsInt.to_raw_eq
+                                  (Mathlib.Meta.NormNum.isInt_mul (Eq.refl HMul.hMul)
+                                    (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1))
+                                    (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                                    (Eq.refl (Int.negOfNat 1)))))
+                              Mathlib.Tactic.Ring.neg_zero)
+                            (Mathlib.Tactic.Ring.add_pf_add_gt (Int.negOfNat 1).rawCast
+                              (Mathlib.Tactic.Ring.add_pf_add_zero (c ^ Nat.rawCast 1 * Nat.rawCast 1 + 0)))))
+                        (Mathlib.Tactic.Ring.add_pf_add_overlap_zero
+                          (Mathlib.Meta.NormNum.IsInt.to_isNat
+                            (Mathlib.Meta.NormNum.isInt_add (Eq.refl HAdd.hAdd)
+                              (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.IsNat.of_raw ℝ 1))
+                              (Mathlib.Meta.NormNum.IsInt.of_raw ℝ (Int.negOfNat 1)) (Eq.refl (Int.ofNat 0))))
+                          (Mathlib.Tactic.Ring.add_pf_zero_add (c ^ Nat.rawCast 1 * Nat.rawCast 1 + 0))))
+                      (Mathlib.Tactic.Ring.atom_pf c)));
+              if hbounded : a ≤ 2 * (1 / h) then
+                have hQ := hneg a ⟨ha, hbounded⟩;
+                CriticalExtrapolation.Paper.negative_direction_failure N h c L D hp hL hD
+                  (CriticalE.olean serialization took 6.72s
+xtrapolation.Paper.trialDirection N a (1 / h))
+                  (CriticalExtrapolation.Paper.original_trial_strict_feasibility N h c hp hsize)
+                  (Eq.mp
+                    (congrArg
+                      (fun _a =>
+                        CriticalExtrapolation.chainObjective h _a
+                            (CriticalExtrapolation.Paper.trialDirection N a (1 / h)) <
+                          0)
+                      hceq)
+                    hQ)
+              else
+                have hfail := hquad a (le_of_not_ge hbounded);
+                Eq.mp
+                  (congrArg
+                    (fun _a =>
+                      L * D / CriticalExtrapolation.Paper.S N h _a < CriticalExtrapolation.worstGradient N h _a L D)
+                    hceq)
+                  hfail)))))
+theorem CriticalExtrapolation.Paper.original_sharp_critical_scale : ∀ (L D h : ℝ),
+  0 < L →
+    0 < D →
+      0 < h →
+        h ≤ 1 →
+          Filter.Tendsto
+            (fun N => h * ↑N * √(Real.log ↑N) * (CriticalExtrapolation.Paper.originalCriticalCoefficient N h L D - 1))
+            Filter.atTop (nhds 1) :=
+fun L D h hL hD hh hh1 =>
+  CriticalExtrapolation.Paper.scaled_limit_of_interval_sandwich h hh
+    (fun N => CriticalExtrapolation.Paper.originalCriticalCoefficient N h L D) fun ε hε =>
+    CriticalExtrapolation.Paper.original_critical_sandwich h L D ε hh hh1 hL hD hε.left hε.right
+'CriticalExtrapolation.Paper.original_reciprocal_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaboration took 2.56s
+'CriticalExtrapolation.Paper.original_trial_coefficient_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+elaboration took 663ms
+'CriticalExtrapolation.Paper.original_trial_functional_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+elaboration took 824ms
+'CriticalExtrapolation.Paper.original_trial_strict_feasibility' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+elaboration took 836ms
+'CriticalExtrapolation.Paper.original_energy_perturbation_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+elaboration took 16.6s
+'CriticalExtrapolation.Paper.original_energy_eventual_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaboration took 11s
+'CriticalExtrapolation.Paper.original_trial_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaboration took 866ms
+'CriticalExtrapolation.Paper.original_terminal_log_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaboration took 609ms
+'CriticalExtrapolation.Paper.original_negative_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaboration took 372ms
+'CriticalExtrapolation.Paper.original_eventual_negative_trial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+elaboration took 2.44s
+'CriticalExtrapolation.Paper.original_quadratic_tail_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaboration took 457ms
+'CriticalExtrapolation.Paper.original_quadratic_tail_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaboration took 11.1s
+'CriticalExtrapolation.Paper.original_eventual_upper_failure_fixed_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+elaboration took 2.31s
+'CriticalExtrapolation.Paper.original_critical_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaboration took 7.09s
+'CriticalExtrapolation.Paper.original_sharp_critical_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaboration took 3.55s
+'CriticalExtrapolation.Paper.original_critical_increment_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+elaboration took 3.32s
+'CriticalExtrapolation.Paper.original_no_positive_inverse_linear_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+elaboration took 2.7s
+'CriticalExtrapolation.Paper.original_conjecture_5_1_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+elaboration took 2.35s
+cumulative profiling times:
+	.olean serialization 6.72s
+	attribute application 1.2ms
+	blocked (unaccounted) 11.1s
+	compilation (IR) 152ms
+	compilation (LCNF base) 157ms
+	compilation (LCNF mono) 55.8ms
+	congr simp thm 70.2ms
+	dsimp 321ms
+	elaboration 70.4s
+	fix level params 19ms
+	import 705s
+	initialization 160ms
+	instantiate metavars 301ms
+	interpretation 72s
+	let-to-have transformation 6.62ms
+	linting 436ms
+	norm_num 7.66s
+	parsing 228ms
+	process pre-definitions 278ms
+	ring 5.06s
+	share common exprs 377ms
+	simp 2.08s
+	tactic execution 7.81s
+	type checking 1.65s
+	typeclass inference 20.1s
+

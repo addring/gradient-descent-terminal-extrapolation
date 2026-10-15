@@ -1,0 +1,636 @@
+⚠ [2703/2866] Replayed PaperFramework.Definitions
+warning: PaperFramework/Definitions.lean:242:19: unused variable `hi`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2704/2866] Replayed PaperFramework.TailTransform
+warning: PaperFramework/TailTransform.lean:66:51: unused variable `hN`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2707/2866] Replayed PaperFramework.QPValue
+warning: PaperFramework/QPValue.lean:7:51: unused variable `hp`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2712/2866] Replayed PaperFramework.VecTwo
+warning: PaperFramework/VecTwo.lean:9:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2715/2866] Replayed PaperFramework.QPGeometry
+warning: PaperFramework/QPGeometry.lean:70:48: unused variable `hp`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2717/2866] Replayed PaperFramework.TridiagonalStructure
+warning: PaperFramework/TridiagonalStructure.lean:50:5: unused variable `hN`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2721/2866] Replayed PaperFramework.SmoothDescent
+warning: PaperFramework/SmoothDescent.lean:23:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/SmoothDescent.lean:23:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2722/2866] Replayed PaperFramework.TrialSlopeScalar
+warning: PaperFramework/TrialSlopeScalar.lean:20:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialSlopeScalar.lean:55:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialSlopeScalar.lean:85:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2723/2866] Replayed PaperFramework.TrialRightScalar
+warning: PaperFramework/TrialRightScalar.lean:19:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialRightScalar.lean:58:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2725/2866] Replayed PaperFramework.ScaledParameters
+warning: PaperFramework/ScaledParameters.lean:23:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2726/2866] Replayed PaperFramework.CorrectionMatrix
+warning: PaperFramework/CorrectionMatrix.lean:118:5: unused variable `hN`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2727/2866] Replayed PaperFramework.ObjectiveEnergy
+warning: PaperFramework/ObjectiveEnergy.lean:33:19: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/ObjectiveEnergy.lean:33:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2730/2866] Replayed PaperFramework.QuadraticActual
+warning: PaperFramework/QuadraticActual.lean:23:10: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  simp [s̵m̵u̵l̵_̵s̵m̵u̵l̵,̵ ̵toDual_apply_apply, innerSL_apply_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperFramework/QuadraticActual.lean:23:41: This simp argument is unused:
+  innerSL_apply_apply
+
+Hint: Omit it from the simp argument list.
+  simp [smul_smul, toDual_apply_apply,̵ ̵i̵n̵n̵e̵r̵S̵L̵_̵a̵p̵p̵l̵y̵_̵a̵p̵p̵l̵y̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperFramework/QuadraticActual.lean:69:19: This simp argument is unused:
+  RCLike.inner_apply
+
+Hint: Omit it from the simp argument list.
+  simp [unitOne, R̵C̵L̵i̵k̵e̵.̵i̵n̵n̵e̵r̵_̵a̵p̵p̵l̵y̵,̵ ̵Fin.sum_univ_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperFramework/QuadraticActual.lean:69:39: This simp argument is unused:
+  Fin.sum_univ_one
+
+Hint: Omit it from the simp argument list.
+  simp [unitOne, RCLike.inner_apply,̵ ̵F̵i̵n̵.̵s̵u̵m̵_̵u̵n̵i̵v̵_̵o̵n̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2733/2866] Replayed PaperFramework.ChainMatrix
+warning: PaperFramework/ChainMatrix.lean:130:49: unused variable `hp`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2736/2866] Replayed PaperFramework.FeasibleFloor
+warning: PaperFramework/FeasibleFloor.lean:60:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/FeasibleFloor.lean:82:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/FeasibleFloor.lean:82:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/FeasibleFloor.lean:94:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2741/2866] Replayed PaperFramework.ReferenceRatio
+warning: PaperFramework/ReferenceRatio.lean:30:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2747/2866] Replayed PaperFramework.ShiftedEnergy
+warning: PaperFramework/ShiftedEnergy.lean:18:6: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/ShiftedEnergy.lean:18:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/ShiftedEnergy.lean:28:52: This simp argument is unused:
+  hi
+
+Hint: Omit it from the simp argument list.
+  simp [difference, shiftedDirection, zeroExtend, hi̵,̵ ̵h̵eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperFramework/ShiftedEnergy.lean:26:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/ShiftedEnergy.lean:29:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/ShiftedEnergy.lean:71:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/ShiftedEnergy.lean:160:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/ShiftedEnergy.lean:160:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/ShiftedEnergy.lean:133:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/ShiftedEnergy.lean:140:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2751/2866] Replayed PaperFramework.TrialProfiles
+warning: PaperFramework/TrialProfiles.lean:62:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2753/2866] Replayed PaperFramework.EnergyLowerBound
+warning: PaperFramework/EnergyLowerBound.lean:49:62: unused variable `hN`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2754/2866] Replayed PaperFramework.TrialNormalization
+warning: PaperFramework/TrialNormalization.lean:29:68: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialNormalization.lean:54:16: This simp argument is unused:
+  Fin.val_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [i, F̵i̵n̵.̵v̵a̵l̵_̵z̵e̵r̵o̵,̵ ̵Nat.sub_zero, Nat.cast_zero, zero_add, tail_zero] at hleft hright
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperFramework/TrialNormalization.lean:85:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2757/2866] Replayed PaperFramework.TrialBaseline
+warning: PaperFramework/TrialBaseline.lean:38:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialBaseline.lean:92:10: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialBaseline.lean:92:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2758/2866] Replayed PaperFramework.TrialUniformAlgebra
+warning: PaperFramework/TrialUniformAlgebra.lean:50:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2759/2866] Replayed PaperFramework.UniformScaledAlgebra
+warning: PaperFramework/UniformScaledAlgebra.lean:14:6: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/UniformScaledAlgebra.lean:14:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2762/2866] Replayed PaperFramework.TrialMajorant
+warning: PaperFramework/TrialMajorant.lean:88:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2763/2866] Replayed PaperFramework.TrialUniformLimitProof
+warning: PaperFramework/TrialUniformLimitProof.lean:44:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialUniformLimitProof.lean:53:10: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialUniformLimitProof.lean:44:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/TrialUniformLimitProof.lean:53:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/TrialUniformLimitProof.lean:26:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialUniformLimitProof.lean:31:61: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2764/2866] Replayed PaperFramework.TrialPerturbationAlgebra
+warning: PaperFramework/TrialPerturbationAlgebra.lean:29:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2765/2866] Replayed PaperFramework.UniformSigns
+warning: PaperFramework/UniformSigns.lean:9:18: unused variable `hh1`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2766/2866] Replayed PaperFramework.UniformMassBounds
+warning: PaperFramework/UniformMassBounds.lean:26:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2769/2866] Replayed PaperFramework.OriginalFeasibility
+warning: PaperFramework/OriginalFeasibility.lean:22:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/OriginalFeasibility.lean:85:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2771/2866] Replayed PaperFramework.TrialPerturbationProfiles
+warning: PaperFramework/TrialPerturbationProfiles.lean:62:47: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialPerturbationProfiles.lean:62:47: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/TrialPerturbationProfiles.lean:66:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2773/2866] Replayed PaperFramework.TrialReferenceModel
+warning: PaperFramework/TrialReferenceModel.lean:28:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialReferenceModel.lean:48:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2776/2866] Replayed PaperFramework.KKTRowPositivity
+warning: PaperFramework/KKTRowPositivity.lean:66:36: This simp argument is unused:
+  zero_sub
+
+Hint: Omit it from the simp argument list.
+  simp only [Pi.zero_apply, previousCoordinate, zeroExtend, dite_eq_ite,
+  ̵  ̵ ̵ ̵ ̵ ̵ite_self, sub_zero,
+  ̲  ̲ ̲ ̲ ̲ ̲mul_zero,̵ ̵z̵e̵r̵o̵_̵s̵u̵b̵] at hbalance
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2777/2866] Replayed PaperFramework.TrialWeightedAlgebra
+warning: PaperFramework/TrialWeightedAlgebra.lean:68:37: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialWeightedAlgebra.lean:68:37: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2778/2866] Replayed PaperFramework.TrialHarmonicBounds
+warning: PaperFramework/TrialHarmonicBounds.lean:18:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialHarmonicBounds.lean:34:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialHarmonicBounds.lean:102:12: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialHarmonicBounds.lean:102:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2780/2866] Replayed PaperFramework.TrialReferencePoleLimit
+warning: PaperFramework/TrialReferencePoleLimit.lean:24:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialReferencePoleLimit.lean:35:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialReferencePoleLimit.lean:41:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialReferencePoleLimit.lean:48:78: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2781/2866] Replayed PaperFramework.UniformTerminalBounds
+warning: PaperFramework/UniformTerminalBounds.lean:37:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/UniformTerminalBounds.lean:37:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/UniformTerminalBounds.lean:86:58: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2782/2866] Replayed PaperFramework.PlateauRecurrences
+warning: PaperFramework/PlateauRecurrences.lean:88:33: This simp argument is unused:
+  sub_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [sub_self, mul_zero,̵ ̵s̵u̵b̵_̵z̵e̵r̵o̵] at heq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2783/2866] Replayed PaperFramework.TrialWeightedPointwise
+warning: PaperFramework/TrialWeightedPointwise.lean:58:10: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialWeightedPointwise.lean:58:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2784/2866] Replayed PaperFramework.TrialWeightedSum
+warning: PaperFramework/TrialWeightedSum.lean:78:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialWeightedSum.lean:78:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2785/2866] Replayed PaperFramework.TrialReferenceEnergyPointwise
+warning: PaperFramework/TrialReferenceEnergyPointwise.lean:27:12: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialReferenceEnergyPointwise.lean:27:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/TrialReferenceEnergyPointwise.lean:37:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialReferenceEnergyPointwise.lean:61:61: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialReferenceEnergyPointwise.lean:61:78: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2786/2866] Replayed PaperFramework.FiniteIntervalSums
+warning: PaperFramework/FiniteIntervalSums.lean:134:66: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2787/2866] Replayed PaperFramework.FlowBasics
+warning: PaperFramework/FlowBasics.lean:61:52: unused variable `hp`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFramework/FlowBasics.lean:61:76: unused variable `hh`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFramework/FlowBasics.lean:62:17: unused variable `hβ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFramework/FlowBasics.lean:64:18: unused variable `he`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2788/2866] Replayed PaperFramework.TrialPerturbationProof
+warning: PaperFramework/TrialPerturbationProof.lean:80:12: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialPerturbationProof.lean:80:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/TrialPerturbationProof.lean:138:29: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2789/2866] Replayed PaperFramework.TrialReferenceTail
+warning: PaperFramework/TrialReferenceTail.lean:27:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2790/2866] Replayed PaperFramework.TrialReferenceSumLimit
+warning: PaperFramework/TrialReferenceSumLimit.lean:36:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2793/2866] Replayed PaperFramework.TrialReferenceTailSum
+warning: PaperFramework/TrialReferenceTailSum.lean:33:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialReferenceTailSum.lean:37:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialReferenceTailSum.lean:89:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialReferenceTailSum.lean:89:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/TrialReferenceTailSum.lean:65:8: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialReferenceTailSum.lean:75:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/TrialReferenceTailSum.lean:94:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2795/2866] Replayed PaperFramework.TerminalPlateauSums
+warning: PaperFramework/TerminalPlateauSums.lean:53:15: This simp argument is unused:
+  zeroExtend_at
+
+Hint: Omit it from the simp argument list.
+  simp [z, hb, zeroExtend_̵a̵t̵,̵ ̵z̵e̵r̵o̵E̵x̵t̵e̵n̵d̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2796/2866] Replayed PaperFramework.TrialReferenceFiniteBounds
+warning: PaperFramework/TrialReferenceFiniteBounds.lean:45:10: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialReferenceFiniteBounds.lean:45:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/TrialReferenceFiniteBounds.lean:70:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialReferenceFiniteBounds.lean:75:82: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialReferenceFiniteBounds.lean:70:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/TrialReferenceFiniteBounds.lean:75:82: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2797/2866] Replayed PaperFramework.TerminalPlateau
+warning: PaperFramework/TerminalPlateau.lean:82:35: unused variable `hΦ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFramework/TerminalPlateau.lean:83:17: unused variable `hβ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2799/2866] Replayed PaperFramework.FlowProbabilityPreparation
+warning: PaperFramework/FlowProbabilityPreparation.lean:154:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2800/2866] Replayed PaperFramework.TrialReferenceEnergyError
+warning: PaperFramework/TrialReferenceEnergyError.lean:47:10: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialReferenceEnergyError.lean:47:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/TrialReferenceEnergyError.lean:86:45: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialReferenceEnergyError.lean:86:45: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2801/2866] Replayed PaperFramework.TrialReferenceModelLimit
+warning: PaperFramework/TrialReferenceModelLimit.lean:34:56: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/TrialReferenceModelLimit.lean:34:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/TrialReferenceModelLimit.lean:59:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2807/2866] Replayed PaperFramework.UniformLimit
+warning: PaperFramework/UniformLimit.lean:12:13: unused variable `hK`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFramework/UniformLimit.lean:20:13: unused variable `hK`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2808/2866] Replayed PaperFramework.OriginalEnergy
+warning: PaperFramework/OriginalEnergy.lean:40:27: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/OriginalEnergy.lean:97:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/OriginalEnergy.lean:97:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/OriginalEnergy.lean:73:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/OriginalEnergy.lean:79:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2809/2866] Replayed PaperFramework.FlowMoments
+warning: PaperFramework/FlowMoments.lean:19:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/FlowMoments.lean:61:5: unused variable `hsize`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFramework/FlowMoments.lean:61:35: unused variable `hΦ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFramework/FlowMoments.lean:62:17: unused variable `hβ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2812/2866] Replayed PaperFramework.FlowSlopeAction
+warning: PaperFramework/FlowSlopeAction.lean:107:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2817/2866] Replayed PaperFramework.ForwardFlowAlgebra
+warning: PaperFramework/ForwardFlowAlgebra.lean:46:24: This simp argument is unused:
+  hj
+
+Hint: Omit it from the simp argument list.
+  simp [zeroExtend, hj,̵ ̵h̵j̵last]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2820/2866] Replayed PaperFramework.FlowOffDiagonal
+warning: PaperFramework/FlowOffDiagonal.lean:19:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/FlowOffDiagonal.lean:21:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/FlowOffDiagonal.lean:23:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/FlowOffDiagonal.lean:37:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/FlowOffDiagonal.lean:100:8: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/FlowOffDiagonal.lean:100:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2822/2866] Replayed PaperFramework.NegativeAlgebra
+warning: PaperFramework/NegativeAlgebra.lean:20:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2825/2866] Replayed PaperFramework.FlowTrajectory
+warning: PaperFramework/FlowTrajectory.lean:64:10: This simp argument is unused:
+  i.isLt
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵i̵.̵i̵s̵L̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [2826/2866] Replayed PaperFramework.FlowSlackAlgebra
+info: PaperFramework/FlowSlackAlgebra.lean:17:2: Try this:
+  [apply] abel_nf
+⚠ [2828/2866] Replayed PaperFramework.NegativeLeading
+warning: PaperFramework/NegativeLeading.lean:62:19: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  simp only [̵F̵i̵n̵.̵v̵a̵l̵_̵m̵k̵]̵ ̵at hstep
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2829/2866] Replayed PaperFramework.PerturbationTrajectory
+warning: PaperFramework/PerturbationTrajectory.lean:51:10: This simp argument is unused:
+  i.isLt
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵i̵.̵i̵s̵L̵t̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2835/2866] Replayed PaperFramework.NegativeBackward
+warning: PaperFramework/NegativeBackward.lean:20:15: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  simp only [̵F̵i̵n̵.̵v̵a̵l̵_̵m̵k̵]̵ ̵at hid
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2840/2866] Replayed PaperFramework.NegativeLocalSlacks
+warning: PaperFramework/NegativeLocalSlacks.lean:52:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2851/2866] Replayed PaperFramework.FlatEnvelopeAttainment
+warning: PaperFramework/FlatEnvelopeAttainment.lean:22:30: This simp argument is unused:
+  Nat.cast_add
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.cast_succ, Nat.cast_a̵d̵d̵,̵ ̵N̵a̵t̵.̵c̵a̵s̵t̵_̵one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperFramework/FlatEnvelopeAttainment.lean:22:44: This simp argument is unused:
+  Nat.cast_one
+
+Hint: Omit it from the simp argument list.
+  simp only [Nat.cast_succ, Nat.cast_add,̵ ̵N̵a̵t̵.̵c̵a̵s̵t̵_̵o̵n̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperFramework/FlatEnvelopeAttainment.lean:31:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/FlatEnvelopeAttainment.lean:31:33: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2852/2866] Replayed PaperFramework.ProblemAndHuber
+warning: PaperFramework/ProblemAndHuber.lean:35:5: unused variable `hp`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2855/2866] Replayed PaperFramework.OriginalQuadratic
+warning: PaperFramework/OriginalQuadratic.lean:46:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/OriginalQuadratic.lean:59:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/OriginalQuadratic.lean:82:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2861/2866] Replayed PaperFramework.OriginalObjective
+warning: PaperFramework/OriginalObjective.lean:44:10: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/OriginalObjective.lean:44:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFramework/OriginalObjective.lean:75:6: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/OriginalObjective.lean:157:4: 'change
+  l *
+      (t ^ 2 * homogeneousEnergy a t (normalizedTrial N t) - a ^ 2 - a * (a + t) ^ 2 / (N : ℝ) +
+        originalTerminal a t (normalizedTrial N t) i) <
+    0' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/OriginalObjective.lean:139:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2864/2866] Replayed PaperFramework.OriginalCritical
+warning: PaperFramework/OriginalCritical.lean:41:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFramework/OriginalCritical.lean:95:6: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFramework/OriginalCritical.lean:95:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+✔ [2865/2866] Built OriginalExtension (179s)
+Build completed successfully (2866 jobs).

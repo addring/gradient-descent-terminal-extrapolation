@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "verified_date": "2026-10-14",
+  "entry_file": "OriginalExtension.lean",
+  "main_source": "PaperFramework/OriginalCritical.lean",
+  "namespace": "CriticalExtrapolation.Paper",
+  "critical_definition": "originalCriticalCoefficient: supremum of pointwise equality set",
+  "main_theorem": "original_sharp_critical_scale",
+  "main_result": "For L,D>0 and each fixed h in (0,1], h*N*sqrt(log N)*(c_crit-1) tends to 1",
+  "conjecture_refutation": "original_conjecture_5_1_false",
+  "new_theorems": {
+    "count": 18,
+    "names": [
+      "original_reciprocal_margin",
+      "original_trial_coefficient_positive",
+      "original_trial_functional_positive",
+      "original_trial_strict_feasibility",
+      "original_energy_perturbation_upper",
+      "original_energy_eventual_upper",
+      "original_quadratic_tail_decay",
+      "original_quadratic_tail_failure",
+      "original_trial_identity",
+      "original_terminal_log_upper",
+      "original_negative_scalar",
+      "original_eventual_negative_trial",
+      "original_eventual_upper_failure_fixed_step",
+      "original_critical_sandwich",
+      "original_sharp_critical_scale",
+      "original_critical_increment_small",
+      "original_no_positive_inverse_linear_lower_bound",
+      "original_conjecture_5_1_false"
+    ],
+    "source_sorry_count": 0
+  },
+  "axiom_audit": {
+    "status": "passed",
+    "count": 18,
+    "sorryAx": false,
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "record": "framework_status.json"
+  },
+  "full_project_build": {
+    "status": "passed",
+    "command": "lake build",
+    "jobs": 2866,
+    "exit_code": 0,
+    "completed_at": "2026-10-14T19:36:17.6041140+08:00",
+    "targets": [
+      "CriticalExtrapolation",
+      "PaperFramework",
+      "OriginalExtension"
+    ],
+    "record": "full_lake_build_status.json",
+    "used_existing_cache": true
+  },
+  "current_source_hashes_verified": true,
+  "current_source_manifest": "full_lake_build_source_manifest.json",
+  "declarations_and_proof_bodies_match_combined_audit": true,
+  "import_change_after_combined_audit": "Added import PaperFramework.ProblemAndHuber in OriginalQuadratic.lean; proof bodies unchanged",
+  "historical_audit_scope": "699 old theorems; preserved separately, not rerun as one current all-theorem audit",
+  "paper_pdf_status": "19 pages; Section 8 removed 2026-10-15; compiled and visually reviewed",
+  "archive": "archive/research/lean_formalization/original_extension/",
+  "evidence_files": [
+    {
+      "file": "CombinedOriginal.lean",
+      "sha256": "98723eb6188b09d2aafe44eda8c911b1ee3b12bef05e049abe64079a377f0b46"
+    },
+    {
+      "file": "framework_status.json",
+      "sha256": "e9e792897c0fc89b2cc18dc4192279eb7b27f2d29cc96fca4e0788d21b1807fe"
+    },
+    {
+      "file": "framework_build.log",
+      "sha256": "df3e18b572321524c679d89b876b812751fbcaafb2b031e643596c806d811b2f"
+    },
+    {
+      "file": "full_lake_build_status.json",
+      "sha256": "d10a4f35bf6d4b7fcf48868df37174d94664ab336fe04f2e3d77367e56214397"
+    },
+    {
+      "file": "full_lake_build.log",
+      "sha256": "378eeeb8224f3a3f807501ac3f1444b4cdaeb25302dbd39d507c75cd7fb96001"
+    },
+    {
+      "file": "full_lake_build_source_manifest.json",
+      "sha256": "90890d236088372597dac5372d505bd98839ba8378e763268402a32c2f992c98"
+    },
+    {
+      "file": "verification_context.json",
+      "sha256": "2126c878844f7048c5fb6bdee2198784c809732eed3db8adeb318d60bff9ab22"
+    }
+  ],
+  "paper_pdf": "main.pdf",
+  "paper_pdf_sha256": "dcc9dff23055382b8643ef291e246b494b863fd2aa5502a1c4ab6329e1e9d5be",
+  "submission_layout": {
+    "root_files": [
+      "README.md",
+      ".gitignore",
+      "main.pdf"
+    ],
+    "directories": [
+      "lean_formalization",
+      "verification",
+      "scripts"
+    ],
+    "local_only": [
+      "paper/",
+      "gradient_extrapolation_research_handoff_2026-10-14.md",
+      "scripts/build_paper.py"
+    ]
+  },
+  "semantic_review": {
+    "date": "2026-10-15",
+    "record": "lean_formalization/PROOF_MAP.md",
+    "main_problem_aligned": true,
+    "recorded_source_files_checked": 181,
+    "recorded_sources_match": true,
+    "lean_build_rerun": false
+  },
+  "pre_submission_check": {
+    "date": "2026-10-15",
+    "status": "passed",
+    "record": "lean_formalization/verification/pre_submission.json",
+    "record_sha256": "8db60fa58aceaeecfae12e622eede7fa92f2c8c2a4bf6e609af2c1fc96325ddd",
+    "full_lake_build_jobs": 2866,
+    "current_full_axiom_audit_theorems": 717
+  }
+}

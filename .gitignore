@@ -1,6 +1,7 @@
 /archive/
 /build/
 /dist/
+/output/
 /verification/results/
 .venv/
 __pycache__/
@@ -8,6 +9,8 @@ __pycache__/
 .lake/
 *.aux
 *.log
+!/lean_formalization/verification/original_extension/framework_build.log
+!/lean_formalization/verification/original_extension/full_lake_build.log
 *.out
 *.toc
 *.xdv
@@ -21,3 +24,11 @@ Thumbs.db
 /verification/exact/proof.md
 
 /article/
+
+# Local manuscript sources, reports and working notes
+/paper/
+/gradient_extrapolation_research_handoff_2026-10-14.md
+/scripts/build_paper.py
+/scripts/live_original_lean.py
+/期中报告.tex
+/期中报告.pdf

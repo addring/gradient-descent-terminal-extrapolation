@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-15",
+  "audited_theorems": 717,
+  "direct_sorry_count": 0,
+  "sorryAx": false,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "main_theorem": "CriticalExtrapolation.Paper.original_sharp_critical_scale",
+  "critical_definition": "CriticalExtrapolation.Paper.originalCriticalCoefficient",
+  "separate_full_build": false
+}

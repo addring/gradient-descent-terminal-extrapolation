@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "command": "lake build",
+  "full_project": true,
+  "attempt": 3,
+  "exit_code": 0,
+  "started_at": "2026-10-14T19:31:11.7891068+08:00",
+  "completed_at": "2026-10-14T19:36:17.6041140+08:00"
+}
