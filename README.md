@@ -29,7 +29,11 @@ $$
 成立的参数集合。定义
 
 $$
-c_{\mathrm{crit}}(N,h)=\sup\left\{c\ge1:\ P_{N,h}(c;L,D)=\frac{LD}{1+Nhc}\right\}.
+c_{\mathrm{crit}}(N,h)
+=\sup\left\lbrace
+c\ge 1:\quad
+P_{N,h}(c;L,D)=\frac{LD}{1+Nhc}
+\right\rbrace.
 $$
 
 由缩放可知，该临界参数与 $L,D$ 无关。
